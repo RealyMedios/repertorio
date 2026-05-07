@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - RealyMedios</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; margin: 0; padding: 20px; }
+        .container { max-width: 1400px; margin: auto; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+        .panel { background: white; padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h2 { margin-top: 0; color: #333; }
+        input, textarea, select { width: 100%; padding: 10px; margin: 5px 0 15px 0; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; margin: 5px; transition: all 0.2s; }
+        button:hover { opacity: 0.8; transform: translateY(-1px); }
+        .btn-danger { background: #dc3545; }
+        .btn-warning { background: #ffc107; color: #333; }
+        .btn-success { background: #28a745; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; }
+        .cancion-card { background: white; border-radius: 10px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-left: 4px solid #007bff; }
+        .cancion-titulo { font-size: 18px; font-weight: bold; color: #007bff; }
+        .stats { display: flex; gap: 20px; justify-content: space-around; margin-bottom: 20px; flex-wrap: wrap; }
+        .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 25px; border-radius: 10px; text-align: center; flex: 1; min-width: 120px; }
+        .stat-number { font-size: 28px; font-weight: bold; }
+        .buscar { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; }
+        .badge { background: #007bff; color: white; padding: 3px 10px; border-radius: 20px; font-size: 12px; display: inline-block; margin: 5px 5px 0 0; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        @media (max-width: 768px) { .form-row { grid-template-columns: 1fr; } }
+        .backup-notification { position: fixed; bottom: 20px; right: 20px; background: #28a745; color: white; padding: 12px 20px; border-radius: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 1000; animation: slideIn 0.3s ease; }
+        @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📚 BIBLIOTECA MAESTRA</h1>
+        <p>Todas las canciones de la banda - Aquí se crean, editan y eliminan</p>
+        <a href="index.html" style="color: white; text-decoration: none;">← Volver al menú</a>
+    </div>
+
+    <div class="stats">
+        <div class="stat-card"><div class="stat-number" id="total">0</div><div>Total Canciones</div></div>
+        <div class="stat-card"><div class="stat-number" id="generos">0</div><div>Géneros</div></div>
+        <div class="stat-card"><div class="stat-number" id="enSetlist">0</div><div>En Setlist</div></div>
+    </div>
+
+    <div class="panel">
+        <h2>➕ Agregar Nueva Canción</h2>
+        <div class="form-row">
+            <input type="text" id="genero" placeholder="Género (Ej: PARRANDA, SALSA, BALADA)" style="text-transform: uppercase;">
+            <input type="text" id="titulo" placeholder="Título de la canción">
+            <input type="text" id="tonalidad" placeholder="Tonalidad (Ej: Do Mayor, La menor)">
+            <input type="text" id="carpeta" placeholder="Carpeta PDF (sin espacios, ej: amor_perdido)">
+        </div>
+        <textarea id="letra" placeholder="Letra de la canción..." rows="3"></textarea>
+        <div class="form-row">
+            <input type="text" id="vientos" placeholder="Vientos (Trompeta, Saxo, Trombón)">
+            <input type="text" id="percusion" placeholder="Percusión (Congas, Timbal, Bongó)">
+            <input type="text" id="armonia" placeholder="Armonía (Piano, Bajo, Cuatro)">
+        </div>
+        <button onclick="agregarCancion()">✅ Agregar a Biblioteca</button>
+        <button class="btn-warning" onclick="exportarManual()">📥 Exportar Backup Manual</button>
+        <button class="btn-warning" onclick="importarBackup()">📤 Importar Backup</button>
+    </div>
+
+    <div class="panel">
+        <h2>🔍 Buscar Canción</h2>
+        <input type="text" id="buscar" class="buscar" placeholder="Buscar por título, género o tonalidad..." onkeyup="mostrarBiblioteca()">
+        <div id="lista-biblioteca" class="grid"></div>
+    </div>
+</div>
+
+<script>
+    let biblioteca = [];
+
+    async function cargarBiblioteca() {
+        try {
+            const response = await fetch('/api/canciones');
+            biblioteca = await response.json();
+            mostrarBiblioteca();
+            actualizarStats();
+        } catch (error) {
+            console.error('Error cargando biblioteca:', error);
+            alert('Error al conectar con el servidor local');
+        }
+    }
+
+    // Ya no se usa guardarBiblioteca() manual, cada acción llama a la API.
+
+    function mostrarNotificacion(mensaje) {
+        const notif = document.createElement('div');
+        notif.className = 'backup-notification';
+        notif.innerText = mensaje;
+        document.body.appendChild(notif);
+        setTimeout(() => notif.remove(), 3000);
+    }
+
+    async function agregarCancion() {
+        const cancion = {
+            genero: document.getElementById('genero').value.toUpperCase(),
+            titulo: document.getElementById('titulo').value,
+            tonalidad: document.getElementById('tonalidad').value,
+            carpeta: document.getElementById('carpeta').value,
+            letra: document.getElementById('letra').value,
+            secciones: {
+                vientos: document.getElementById('vientos').value.split(',').map(s => s.trim()).filter(s => s),
+                percusion: document.getElementById('percusion').value.split(',').map(s => s.trim()).filter(s => s),
+                armonia: document.getElementById('armonia').value.split(',').map(s => s.trim()).filter(s => s)
+            },
+            enSetlist: false
+        };
+        
+        if (!cancion.titulo || !cancion.genero) {
+            alert('❌ Título y Género son obligatorios');
+            return;
+        }
+        
+        try {
+            await fetch('/api/canciones', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(cancion)
+            });
+            await cargarBiblioteca();
+            limpiarFormulario();
+            mostrarNotificacion('✅ Canción agregada y guardada en BD');
+        } catch (error) {
+            alert('❌ Error al guardar en base de datos');
+        }
+    }
+
+    async function eliminarCancion(id) {
+        if (confirm('¿Eliminar esta canción de la biblioteca?')) {
+            try {
+                await fetch(`/api/canciones/${id}`, { method: 'DELETE' });
+                await cargarBiblioteca();
+                mostrarNotificacion('🗑️ Canción eliminada de la BD');
+            } catch (error) {
+                alert('❌ Error al eliminar');
+            }
+        }
+    }
+
+    async function editarCancion(id) {
+        const c = biblioteca.find(c => c.id === id);
+        if (!c) return;
+        document.getElementById('genero').value = c.genero;
+        document.getElementById('titulo').value = c.titulo;
+        document.getElementById('tonalidad').value = c.tonalidad || '';
+        document.getElementById('carpeta').value = c.carpeta || '';
+        document.getElementById('letra').value = c.letra || '';
+        document.getElementById('vientos').value = (c.secciones.vientos || []).join(', ');
+        document.getElementById('percusion').value = (c.secciones.percusion || []).join(', ');
+        document.getElementById('armonia').value = (c.secciones.armonia || []).join(', ');
+        
+        // Lo eliminamos para volver a guardarlo (podría hacerse un PUT mejor, pero esto mantiene tu flujo)
+        await eliminarCancion(id);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    async function toggleSetlist(id) {
+        const cancion = biblioteca.find(c => c.id === id);
+        if (cancion) {
+            cancion.enSetlist = !cancion.enSetlist;
+            try {
+                await fetch(`/api/canciones/${id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(cancion)
+                });
+                await cargarBiblioteca();
+            } catch (error) {
+                alert('❌ Error al actualizar setlist');
+            }
+        }
+    }
+
+    function mostrarBiblioteca() {
+        const busqueda = document.getElementById('buscar').value.toLowerCase();
+        let filtradas = biblioteca.filter(c => 
+            c.titulo.toLowerCase().includes(busqueda) || 
+            c.genero.toLowerCase().includes(busqueda) ||
+            (c.tonalidad && c.tonalidad.toLowerCase().includes(busqueda))
+        );
+        
+        const contenedor = document.getElementById('lista-biblioteca');
+        if (filtradas.length === 0) {
+            contenedor.innerHTML = '<p style="text-align:center; padding:40px; color:#999;">📭 No hay canciones en la biblioteca. ¡Agrega tu primera canción!</p>';
+            return;
+        }
+
+        contenedor.innerHTML = filtradas.map(c => `
+            <div class="cancion-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+                    <span class="cancion-titulo">🎵 ${c.titulo}</span>
+                    <span class="badge">${c.genero}</span>
+                </div>
+                <div style="margin-top: 10px; font-size: 14px; color: #666;">
+                    <div>🎼 Tonalidad: ${c.tonalidad || 'No especificada'}</div>
+                    <div>📁 Carpeta: ${c.carpeta || 'No especificada'}</div>
+                    <div>🎺 Vientos: ${c.secciones.vientos.join(', ') || '-'}</div>
+                    <div>🥁 Percusión: ${c.secciones.percusion.join(', ') || '-'}</div>
+                    <div>🎹 Armonía: ${c.secciones.armonia.join(', ') || '-'}</div>
+                    ${c.letra ? `<div>📝 Letra: ${c.letra.substring(0, 80)}${c.letra.length > 80 ? '...' : ''}</div>` : ''}
+                </div>
+                <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+                    <button onclick="eliminarCancion(${c.id})" class="btn-danger">🗑️ Eliminar</button>
+                    <button onclick="editarCancion(${c.id})" class="btn-warning">✏️ Editar</button>
+                    <button onclick="toggleSetlist(${c.id})" style="background: ${c.enSetlist ? '#28a745' : '#6c757d'}">${c.enSetlist ? '✅ En Setlist' : '➕ Agregar a Setlist'}</button>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function actualizarStats() {
+        document.getElementById('total').innerText = biblioteca.length;
+        const generosUnicos = new Set(biblioteca.map(c => c.genero));
+        document.getElementById('generos').innerText = generosUnicos.size;
+        const enSetlist = biblioteca.filter(c => c.enSetlist).length;
+        document.getElementById('enSetlist').innerText = enSetlist;
+    }
+
+    function limpiarFormulario() {
+        document.getElementById('genero').value = '';
+        document.getElementById('titulo').value = '';
+        document.getElementById('tonalidad').value = '';
+        document.getElementById('carpeta').value = '';
+        document.getElementById('letra').value = '';
+        document.getElementById('vientos').value = '';
+        document.getElementById('percusion').value = '';
+        document.getElementById('armonia').value = '';
+    }
+
+    function exportarManual() {
+        const datos = JSON.stringify(biblioteca, null, 2);
+        const fecha = new Date();
+        const fechaStr = fecha.toISOString().slice(0, 19).replace(/:/g, '-');
+        
+        const blob = new Blob([datos], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `biblioteca_manual_${fechaStr}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        mostrarNotificacion('📥 Backup manual exportado');
+    }
+
+    async function importarBackup() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        input.onchange = e => {
+            const file = e.target.files[0];
+            const reader = new FileReader();
+            reader.onload = async ev => {
+                try {
+                    const data = JSON.parse(ev.target.result);
+                    if (Array.isArray(data)) {
+                        for (let cancion of data) {
+                            await fetch('/api/canciones', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify(cancion)
+                            });
+                        }
+                        await cargarBiblioteca();
+                        mostrarNotificacion('✅ Backup restaurado exitosamente en BD');
+                    }
+                } catch (err) {
+                    alert('❌ Error al importar archivo');
+                }
+            };
+            reader.readAsText(file);
+        };
+        input.click();
+    }
+
+    cargarBiblioteca();
+</script>
+</body>
+</html>

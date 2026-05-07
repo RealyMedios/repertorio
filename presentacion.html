@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación - Somos Parranda</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: #0a0a0a; 
+            color: #e0e0e0; 
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: auto; }
+        .header { text-align: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #007bff; }
+        h1 { color: #007bff; font-size: 28px; }
+        .fecha { color: #888; margin-top: 5px; }
+        .cancion { 
+            background: #1a1a1a; 
+            margin: 20px 0; 
+            padding: 25px; 
+            border-radius: 16px; 
+            border-left: 5px solid #007bff;
+            transition: all 0.3s;
+        }
+        .cancion:hover { transform: translateX(5px); background: #222; }
+        .numero { 
+            font-size: 32px; 
+            font-weight: bold; 
+            color: #007bff; 
+            display: inline-block;
+            width: 60px;
+        }
+        .titulo { font-size: 24px; font-weight: bold; margin-bottom: 8px; }
+        .info { color: #aaa; font-size: 14px; margin-bottom: 15px; }
+        .letra { 
+            background: #0d0d0d; 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin: 15px 0; 
+            font-family: monospace;
+            white-space: pre-line;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+        .pdfs { margin-top: 15px; display: flex; flex-wrap: wrap; gap: 10px; }
+        .pdf-link { 
+            background: #007bff; 
+            color: white; 
+            padding: 8px 16px; 
+            border-radius: 25px; 
+            text-decoration: none; 
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .pdf-link:hover { background: #0056b3; transform: scale(1.02); }
+        .no-setlist { text-align: center; padding: 60px 20px; background: #1a1a1a; border-radius: 16px; }
+        .btn-print {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 100;
+        }
+        .btn-print:hover { background: #0056b3; }
+        @media print {
+            .btn-print { display: none; }
+            body { background: white; color: black; }
+            .cancion { background: white; border: 1px solid #ddd; page-break-inside: avoid; }
+            .letra { background: #f5f5f5; color: black; }
+            .pdf-link { print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🎤 Somos Parranda - SETLIST</h1>
+        <div class="fecha" id="fecha"></div>
+    </div>
+    <div id="presentacion"></div>
+</div>
+<button class="btn-print" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+
+<script>
+    async function cargarSetlist() {
+        const contenedor = document.getElementById('presentacion');
+        const fechaSpan = document.getElementById('fecha');
+        
+        const hoy = new Date();
+        fechaSpan.innerText = hoy.toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+        
+        try {
+            // Se le agrega un timestamp a la URL para evitar que el navegador guarde la caché de la petición
+            const response = await fetch('setlist_publico.json?t=' + new Date().getTime());
+            if (!response.ok) {
+                throw new Error('No se pudo cargar el setlist público.');
+            }
+            
+            const setlist = await response.json();
+            
+            if (!setlist || setlist.length === 0) {
+                contenedor.innerHTML = `
+                    <div class="no-setlist">
+                        <h2>📭 No hay setlist configurado</h2>
+                        <p>El director aún no ha publicado el setlist del evento.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            contenedor.innerHTML = setlist.map((c, i) => `
+                <div class="cancion">
+                    <div style="display: flex; align-items: center; flex-wrap: wrap;">
+                        <span class="numero">${String(i + 1).padStart(2, '0')}</span>
+                        <div style="flex: 1;">
+                            <div class="titulo">${c.titulo}</div>
+                            <div class="info">${c.genero} | ${c.tonalidad || 'Sin tonalidad'}</div>
+                        </div>
+                    </div>
+                    ${c.letra ? `<div class="letra">${c.letra.replace(/\n/g, '<br>')}</div>` : ''}
+                    <div class="pdfs">
+                        ${(c.secciones?.vientos || []).map(i => `<a href="ARCHIVOS/${c.carpeta || ''}/vientos/${encodeURIComponent(i)}.pdf" class="pdf-link" target="_blank">🎺 ${i}</a>`).join('')}
+                        ${(c.secciones?.percusion || []).map(i => `<a href="ARCHIVOS/${c.carpeta || ''}/percusion/${encodeURIComponent(i)}.pdf" class="pdf-link" target="_blank">🥁 ${i}</a>`).join('')}
+                        ${(c.secciones?.armonia || []).map(i => `<a href="ARCHIVOS/${c.carpeta || ''}/armonia/${encodeURIComponent(i)}.pdf" class="pdf-link" target="_blank">🎹 ${i}</a>`).join('')}
+                    </div>
+                </div>
+            `).join('');
+            
+        } catch (error) {
+            contenedor.innerHTML = `
+                <div class="no-setlist">
+                    <h2>⏳ Esperando el Setlist...</h2>
+                    <p>El setlist aún no ha sido publicado en el servidor. La página se actualizará automáticamente.</p>
+                </div>
+            `;
+        }
+    }
+    
+    cargarSetlist();
+    
+    // Recargar cada 30 segundos por si el director publica un nuevo setlist
+    setInterval(cargarSetlist, 30000);
+</script>
+</body>
+</html>

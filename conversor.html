@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor Excel → JSON - RealyMedios</title>
+    <style>
+        body { font-family: Arial; background: #f0f2f5; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; }
+        button { background: #007bff; color: white; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; margin: 10px; }
+        textarea { width: 100%; height: 300px; font-family: monospace; }
+        .paso { background: #e9ecef; padding: 15px; margin: 15px 0; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #007bff; color: white; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📊 Conversor Excel → JSON</h1>
+    <p>Convierte tu archivo Excel de canciones a JSON para importar en la biblioteca</p>
+
+    <div class="paso">
+        <h3>📋 PASO 1: Descargar plantilla Excel</h3>
+        <button onclick="descargarPlantilla()">📥 Descargar Plantilla Excel (.csv)</button>
+        <p><small>La plantilla tiene las columnas necesarias para todas las canciones</small></p>
+    </div>
+
+    <div class="paso">
+        <h3>📤 PASO 2: Subir tu archivo Excel (.csv)</h3>
+        <input type="file" id="archivoCSV" accept=".csv" onchange="convertirCSVaJSON(this)">
+        <button onclick="ejemploCSV()">📋 Ver ejemplo</button>
+    </div>
+
+    <div class="paso">
+        <h3>📝 PASO 3: Copiar el JSON generado</h3>
+        <textarea id="jsonResultado" placeholder="Aquí aparecerá el JSON generado..."></textarea>
+        <button onclick="copiarJSON()">📋 Copiar JSON</button>
+        <button onclick="descargarJSON()">💾 Descargar JSON</button>
+    </div>
+
+    <div class="paso">
+        <h3>📚 PASO 4: Importar en Biblioteca</h3>
+        <p>1. Abre <strong>biblioteca.html</strong></p>
+        <p>2. Haz clic en <strong>"📤 Importar Backup"</strong></p>
+        <p>3. Selecciona el archivo JSON que descargaste</p>
+        <p>4. ¡Todas tus canciones aparecerán!</p>
+    </div>
+</div>
+
+<script>
+    // Descargar plantilla CSV
+    function descargarPlantilla() {
+        const columnas = [
+            "genero",
+            "titulo", 
+            "tonalidad",
+            "carpeta",
+            "letra",
+            "vientos",
+            "percusion",
+            "armonia"
+        ];
+        
+        const ejemplo = [
+            "PARRANDA",
+            "Fuego al Cañón",
+            "Sol Mayor",
+            "fuego_canon",
+            "Verso 1: El fuego quema...\nCoro: Fuego al cañón...",
+            "Trompeta, Saxo",
+            "Congas, Timbal",
+            "Piano, Bajo"
+        ];
+        
+        let contenido = columnas.join(",") + "\n";
+        contenido += ejemplo.join(",") + "\n";
+        contenido += "SALSA,Bailando Contigo,La menor,salsa_verano,Eh ven vamos a bailar...,Trompeta,Timbales,Piano\n";
+        
+        const blob = new Blob(["\uFEFF" + contenido], {type: 'text/csv;charset=utf-8;'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'plantilla_canciones.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+    
+    // Convertir CSV a JSON
+    function convertirCSVaJSON(input) {
+        const file = input.files[0];
+        if (!file) return;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const contenido = e.target.result;
+            const lineas = contenido.split(/\r?\n/);
+            const encabezados = lineas[0].split(',').map(h => h.trim().toLowerCase());
+            
+            const canciones = [];
+            
+            for (let i = 1; i < lineas.length; i++) {
+                if (!lineas[i].trim()) continue;
+                
+                // Manejar comillas y saltos de línea
+                let valores = [];
+                let enComillas = false;
+                let valorActual = '';
+                
+                for (let c of lineas[i]) {
+                    if (c === '"') {
+                        enComillas = !enComillas;
+                    } else if (c === ',' && !enComillas) {
+                        valores.push(valorActual);
+                        valorActual = '';
+                    } else {
+                        valorActual += c;
+                    }
+                }
+                valores.push(valorActual);
+                
+                if (valores.length < 2) continue;
+                
+                const cancion = {
+                    id: Date.now() + i,
+                    genero: (valores[0] || '').toUpperCase(),
+                    titulo: valores[1] || '',
+                    tonalidad: valores[2] || '',
+                    carpeta: valores[3] || '',
+                    letra: (valores[4] || '').replace(/\\n/g, '\n'),
+                    secciones: {
+                        vientos: (valores[5] || '').split(',').map(s => s.trim()).filter(s => s),
+                        percusion: (valores[6] || '').split(',').map(s => s.trim()).filter(s => s),
+                        armonia: (valores[7] || '').split(',').map(s => s.trim()).filter(s => s)
+                    },
+                    enSetlist: false
+                };
+                
+                if (cancion.titulo && cancion.genero) {
+                    canciones.push(cancion);
+                }
+            }
+            
+            document.getElementById('jsonResultado').value = JSON.stringify(canciones, null, 2);
+            alert(`✅ Se convirtieron ${canciones.length} canciones`);
+        };
+        reader.readAsText(file, 'utf-8');
+    }
+    
+    function copiarJSON() {
+        const json = document.getElementById('jsonResultado');
+        json.select();
+        document.execCommand('copy');
+        alert('📋 JSON copiado al portapapeles');
+    }
+    
+    function descargarJSON() {
+        const json = document.getElementById('jsonResultado').value;
+        if (!json) {
+            alert('Primero convierte un archivo CSV');
+            return;
+        }
+        const blob = new Blob([json], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `canciones_${new Date().toISOString().slice(0,10)}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+    
+    function ejemploCSV() {
+        const ejemplo = `genero,titulo,tonalidad,carpeta,letra,vientos,percusion,armonia
+PARRANDA,Fuego al Cañón,Sol Mayor,fuego_canon,"Verso 1: El fuego quema...
+Coro: Fuego al cañón...",Trompeta,Saxo,Congas,Timbal,Piano,Bajo
+SALSA,Bailando Contigo,La menor,salsa_verano,"Eh ven vamos a bailar...
+Al ritmo del tambor",Trompeta,Trombón,Timbales,Congas,Piano
+BALADA,Amor Eterno,Do Mayor,amor_eterno,"Te llevo en mi corazón...
+Siempre te recordaré",,,"Piano, Guitarra"`;
+        
+        const blob = new Blob([ejemplo], {type: 'text/csv'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'ejemplo_canciones.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+</script>
+</body>
+</html>

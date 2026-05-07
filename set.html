@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repertorio Dinámico</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: white; padding: 10px; }
+        .genero-btn { width: 100%; background: #333; border: none; color: #007bff; padding: 15px; text-align: left; font-size: 18px; font-weight: bold; margin-bottom: 5px; border-radius: 5px; cursor: pointer; }
+        .temas-container { display: none; padding-left: 10px; margin-bottom: 10px; border-left: 2px solid #007bff; }
+        .tema-btn { width: 100%; background: #1e1e1e; color: #e0e0e0; border: 1px solid #333; padding: 12px; text-align: left; margin-bottom: 5px; border-radius: 4px; cursor: pointer; }
+        .detalles-tema { display: none; background: #252525; padding: 15px; border-radius: 8px; margin-bottom: 10px; }
+        .btn-inst { display: inline-block; background: #007bff; color: white; padding: 8px 12px; margin: 4px; text-decoration: none; border-radius: 4px; font-size: 13px; }
+        .letra { font-size: 14px; white-space: pre-line; background: #000; padding: 10px; border-radius: 5px; margin-top: 10px; }
+        .cat-title { font-size: 11px; color: #777; text-transform: uppercase; margin-top: 10px; }
+        h1 { text-align: center; color: #007bff; }
+        .btn-exportar { background: #28a745; color: white; border: none; padding: 10px 20px; margin: 10px; cursor: pointer; border-radius: 5px; font-size: 14px; }
+        .btn-importar { background: #ffc107; color: #333; border: none; padding: 10px 20px; margin: 10px; cursor: pointer; border-radius: 5px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>REPERTORIO</h1>
+    <div style="text-align: center;">
+        <button class="btn-exportar" onclick="exportarDatos()">📥 Exportar Datos</button>
+        <button class="btn-importar" onclick="importarDatos()">📤 Importar Datos (JSON)</button>
+        <input type="file" id="archivoJSON" accept=".json" style="display: none;" onchange="cargarJSON(this)">
+    </div>
+    <div id="contenedor-principal"></div>
+
+    <script>
+        let repertorio = [];
+
+        // Cargar datos desde localStorage
+        function cargarRepertorio() {
+            const datos = localStorage.getItem('repertorio');
+            if (datos) {
+                repertorio = JSON.parse(datos);
+            } else {
+                // Datos de ejemplo
+                repertorio = [];
+            }
+            mostrarRepertorio();
+        }
+
+        function mostrarRepertorio() {
+            // Agrupar canciones por género
+            const grupos = {};
+            repertorio.forEach(c => {
+                if (!grupos[c.genero]) grupos[c.genero] = [];
+                grupos[c.genero].push(c);
+            });
+
+            const principal = document.getElementById('contenedor-principal');
+            principal.innerHTML = '';
+
+            for (let genero in grupos) {
+                // Botón de Género
+                let btnG = document.createElement('button');
+                btnG.className = 'genero-btn';
+                btnG.innerText = `📁 ${genero}`;
+                btnG.onclick = () => toggle(genero);
+                principal.appendChild(btnG);
+
+                // Contenedor de Temas
+                let contT = document.createElement('div');
+                contT.id = genero;
+                contT.className = 'temas-container';
+
+                grupos[genero].forEach((tema, idx) => {
+                    let idTema = genero + idx;
+                    
+                    // Botón de Tema
+                    let btnT = document.createElement('button');
+                    btnT.className = 'tema-btn';
+                    btnT.innerText = `🎵 ${tema.titulo} (${tema.tonalidad || 'Sin tonalidad'})`;
+                    btnT.onclick = () => toggle(idTema);
+                    contT.appendChild(btnT);
+
+                    // Detalles (Letra + Instrumentos)
+                    let det = document.createElement('div');
+                    det.id = idTema;
+                    det.className = 'detalles-tema';
+                    
+                    let content = `<strong>Letra:</strong><div class="letra">${tema.letra || 'Sin letra...'}</div>`;
+                    
+                    for(let s in tema.secciones) {
+                        if(tema.secciones[s] && tema.secciones[s].length > 0) {
+                            content += `<div class="cat-title">${s.toUpperCase()}</div>`;
+                            tema.secciones[s].forEach(i => {
+                                const url = `archivos/${tema.carpeta}/${s}/${i}.pdf`;
+                                content += `<a href="${url}" target="_blank" class="btn-inst" onclick="if(!verificarArchivo('${url}')) return false;">${i}</a>`;
+                            });
+                        }
+                    }
+                    
+                    det.innerHTML = content;
+                    contT.appendChild(det);
+                });
+                principal.appendChild(contT);
+            }
+        }
+
+        function toggle(id) {
+            let el = document.getElementById(id);
+            if (el) {
+                el.style.display = (el.style.display === 'block') ? 'none' : 'block';
+            }
+        }
+
+        function verificarArchivo(url) {
+            // Esta función es opcional: intenta verificar si el archivo existe
+            // En GitHub Pages, no puedes verificar fácilmente, así que simplemente retorna true
+            return true;
+        }
+
+        function exportarDatos() {
+            const datos = localStorage.getItem('repertorio');
+            if (!datos) {
+                alert('No hay datos para exportar');
+                return;
+            }
+            
+            const blob = new Blob([datos], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'repertorio_backup.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function importarDatos() {
+            document.getElementById('archivoJSON').click();
+        }
+
+        function cargarJSON(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const datos = JSON.parse(e.target.result);
+                    if (Array.isArray(datos)) {
+                        localStorage.setItem('repertorio', JSON.stringify(datos));
+                        alert('✅ Datos importados correctamente');
+                        location.reload();
+                    } else {
+                        alert('❌ El archivo debe contener un array de canciones');
+                    }
+                } catch (err) {
+                    alert('❌ Error al leer el archivo JSON');
+                }
+            };
+            reader.readAsText(file);
+            input.value = ''; // Limpiar input
+        }
+
+        // Inicializar
+        cargarRepertorio();
+    </script>
+</body>
+</html>

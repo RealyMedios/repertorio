@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setlist - RealyMedios</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #121212; color: white; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; margin-bottom: 20px; }
+        h1 { margin: 0; }
+        .setlist-container { background: #1e1e1e; border-radius: 12px; padding: 20px; margin-bottom: 20px; min-height: 300px; }
+        .cancion-setlist { background: #2a2a2a; padding: 15px; margin: 10px 0; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; cursor: grab; border-left: 4px solid #007bff; }
+        .cancion-setlist:active { cursor: grabbing; }
+        .cancion-setlist.dragging { opacity: 0.5; cursor: grabbing; }
+        .orden-numero { font-size: 24px; font-weight: bold; color: #007bff; margin-right: 15px; min-width: 50px; }
+        .biblioteca-container { background: #1a1a1a; border-radius: 12px; padding: 20px; }
+        .cancion-biblioteca { background: #252525; padding: 12px; margin: 8px 0; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; }
+        .btn { padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; margin: 5px; transition: all 0.2s; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-danger { background: #dc3545; color: white; }
+        .btn-primary { background: #007bff; color: white; }
+        .btn-warning { background: #ffc107; color: #333; }
+        .empty-message { text-align: center; padding: 40px; color: #888; }
+        .acciones { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+        @media (max-width: 768px) { .cancion-setlist { flex-direction: column; text-align: center; } .orden-numero { margin: 0 0 10px 0; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🎯 SETLIST DEL EVENTO</h1>
+        <p>Arrastra las canciones para ordenarlas según el evento</p>
+        <a href="index.html" style="color: white; text-decoration: none;">← Volver al menú</a>
+    </div>
+
+    <h2>📋 Orden de presentación</h2>
+    <div id="setlist-activo" class="setlist-container"></div>
+
+    <h2>📚 Biblioteca disponible</h2>
+    <div id="biblioteca-disponible" class="biblioteca-container"></div>
+
+    <div class="acciones">
+        <button class="btn-success" onclick="guardarSetlist()">💾 Guardar Setlist</button>
+        <button class="btn-primary" onclick="exportarSetlist()">📥 Exportar Setlist (JSON)</button>
+        <button class="btn-warning" onclick="publicarGitHub()" id="btn-publicar">🚀 Publicar para Músicos (GitHub)</button>
+        <button class="btn-danger" onclick="limpiarSetlist()">🗑️ Limpiar Todo</button>
+    </div>
+</div>
+
+<script>
+    let biblioteca = [];
+    let setlist = [];
+
+    async function cargarDatos() {
+        try {
+            // Cargar biblioteca y setlist desde API
+            const bibRes = await fetch('/api/canciones');
+            biblioteca = await bibRes.json();
+            
+            const setRes = await fetch('/api/setlist');
+            setlist = await setRes.json();
+            
+            mostrarSetlist();
+            mostrarBibliotecaDisponible();
+        } catch (error) {
+            console.error('Error cargando datos:', error);
+            alert('Error al cargar datos del servidor');
+        }
+    }
+
+    function mostrarSetlist() {
+        const contenedor = document.getElementById('setlist-activo');
+        if (setlist.length === 0) {
+            contenedor.innerHTML = '<div class="empty-message">📭 No hay canciones en el setlist. Agrega desde la biblioteca.</div>';
+            return;
+        }
+        
+        contenedor.innerHTML = setlist.map((cancion, index) => `
+            <div class="cancion-setlist" draggable="true" data-index="${index}">
+                <div style="display: flex; align-items: center; flex: 1;">
+                    <span class="orden-numero">${index + 1}</span>
+                    <div>
+                        <strong style="font-size: 18px;">${cancion.titulo}</strong><br>
+                        <small>${cancion.genero} | ${cancion.tonalidad || 'Sin tonalidad'}</small>
+                    </div>
+                </div>
+                <button class="btn-danger" onclick="quitarDelSetlist(${index})">❌ Quitar</button>
+            </div>
+        `).join('');
+        
+        // Agregar eventos drag & drop
+        const items = document.querySelectorAll('.cancion-setlist');
+        items.forEach(item => {
+            item.addEventListener('dragstart', dragStart);
+            item.addEventListener('dragover', dragOver);
+            item.addEventListener('drop', drop);
+        });
+    }
+
+    function mostrarBibliotecaDisponible() {
+        const enSetlistIds = new Set(setlist.map(s => s.id));
+        const disponibles = biblioteca.filter(c => !enSetlistIds.has(c.id));
+        
+        const contenedor = document.getElementById('biblioteca-disponible');
+        if (disponibles.length === 0) {
+            contenedor.innerHTML = '<div class="empty-message">✅ Todas las canciones ya están en el setlist</div>';
+            return;
+        }
+        
+        contenedor.innerHTML = disponibles.map(c => `
+            <div class="cancion-biblioteca">
+                <div>
+                    <strong>${c.titulo}</strong><br>
+                    <small>${c.genero} | ${c.tonalidad || 'Sin tonalidad'}</small>
+                </div>
+                <button class="btn-success" onclick="agregarAlSetlist(${c.id})">➕ Agregar</button>
+            </div>
+        `).join('');
+    }
+
+    function agregarAlSetlist(id) {
+        const cancion = biblioteca.find(c => c.id === id);
+        if (cancion && !setlist.find(s => s.id === id)) {
+            setlist.push(cancion);
+            mostrarSetlist();
+            mostrarBibliotecaDisponible();
+        }
+    }
+
+    function quitarDelSetlist(index) {
+        setlist.splice(index, 1);
+        mostrarSetlist();
+        mostrarBibliotecaDisponible();
+    }
+
+    function limpiarSetlist() {
+        if (confirm('¿Eliminar todas las canciones del setlist?')) {
+            setlist = [];
+            mostrarSetlist();
+            mostrarBibliotecaDisponible();
+        }
+    }
+
+    async function guardarSetlist() {
+        try {
+            await fetch('/api/setlist', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(setlist)
+            });
+            alert('✅ Setlist guardado correctamente en la BD');
+        } catch (error) {
+            alert('❌ Error al guardar setlist');
+        }
+    }
+    
+    async function publicarGitHub() {
+        if (!confirm('Esto guardará el setlist actual y lo publicará a internet (GitHub). ¿Continuar?')) return;
+        
+        const btn = document.getElementById('btn-publicar');
+        btn.innerText = '⏳ Publicando...';
+        btn.disabled = true;
+        
+        try {
+            // Guardar cambios primero
+            await fetch('/api/setlist', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(setlist)
+            });
+            
+            // Publicar
+            const res = await fetch('/api/publicar', { method: 'POST' });
+            const data = await res.json();
+            
+            if (data.success) {
+                alert('🚀 ' + data.message);
+            } else {
+                alert('❌ Error: ' + data.message);
+            }
+        } catch (error) {
+            alert('❌ Error al publicar: ' + error);
+        } finally {
+            btn.innerText = '🚀 Publicar para Músicos (GitHub)';
+            btn.disabled = false;
+        }
+    }
+
+    function exportarSetlist() {
+        const data = JSON.stringify(setlist, null, 2);
+        const blob = new Blob([data], {type: 'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `setlist_${new Date().toISOString().slice(0,19)}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        alert('📥 Setlist exportado');
+    }
+
+    // Drag and drop
+    let dragIndex = null;
+    function dragStart(e) {
+        dragIndex = parseInt(e.target.closest('.cancion-setlist').dataset.index);
+        e.target.closest('.cancion-setlist').classList.add('dragging');
+    }
+    function dragOver(e) {
+        e.preventDefault();
+    }
+    function drop(e) {
+        e.preventDefault();
+        const target = e.target.closest('.cancion-setlist');
+        if (target && dragIndex !== null) {
+            const targetIndex = parseInt(target.dataset.index);
+            if (dragIndex !== targetIndex && targetIndex >= 0 && targetIndex < setlist.length) {
+                const [moved] = setlist.splice(dragIndex, 1);
+                setlist.splice(targetIndex, 0, moved);
+                mostrarSetlist();
+            }
+        }
+        document.querySelectorAll('.cancion-setlist').forEach(el => el.classList.remove('dragging'));
+        dragIndex = null;
+    }
+
+    cargarDatos();
+</script>
+</body>
+</html>
