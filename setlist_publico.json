@@ -13,6 +13,19 @@
     }
   },
   {
+    "id": 34,
+    "genero": "GAITAS",
+    "titulo": "LAS CARAQUEÑAS",
+    "tonalidad": "Sol m",
+    "carpeta": "CARAQUEÑAS",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 33,
     "genero": "PARRANDA",
     "titulo": "PRESENTACION - EL HOJAL",
@@ -140,21 +153,6 @@
       "armonia": [],
       "percusion": [],
       "vientos": []
-    }
-  },
-  {
-    "id": 19,
-    "genero": "PARRANDA",
-    "titulo": "LAS CARAQUEÑAS",
-    "tonalidad": "sol m",
-    "carpeta": "caraqueñas",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": [
-        "piano"
-      ]
     }
   },
   {
