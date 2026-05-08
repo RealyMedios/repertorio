@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "genero": "PARRANDA",
+    "titulo": "LAS CARAQUEÑAS",
+    "tonalidad": "sol m",
+    "carpeta": "caraqueñas",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 2,
+    "genero": "PARRANDA",
+    "titulo": "LOS GAVILANES",
+    "tonalidad": "SOL M",
+    "carpeta": "GAVILANES",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 3,
+    "genero": "PARRANDA",
+    "titulo": "MI MAMA NO QUIERE",
+    "tonalidad": "MI",
+    "carpeta": "MIMAMA",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 4,
+    "genero": "PARRANDA",
+    "titulo": "EL COCOUY QUE ALUMBRA",
+    "tonalidad": "RE",
+    "carpeta": "ELCOCOUY",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 5,
+    "genero": "PARRANDA",
+    "titulo": "LA BURRA",
+    "tonalidad": "si m",
+    "carpeta": "LABURRA",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 6,
+    "genero": "PARRANDA",
+    "titulo": "CON MI BOTELLITA E RON ",
+    "tonalidad": "re m ",
+    "carpeta": "CONMIBOTELLITA",
+    "letra": "Parranda de Navidad\nCanción de\n\nTania\nCon mi botellita de ron salgo a parrandear\nCon mi botellita de ron salgo a parrandear\nAgarro mi cuatrico, compay, y me voy a gozar nada más\nAgarro mi cuatrico compay y me voy a gozar nada más\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares (ay)\nEl lucero está radiante, ya viene el amanecer\nEl lucero está radiante, ya viene el amanecer\nAgarro mi cuatrico y mi ron, y pasteles me voy a comer\nAgarro mi cuatrico y mi ron, y pasteles me voy a comer\nSon para gozarlas estas Navidades\nAy, son para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nCuando sean 12 de la noche y el año barbudo se va\nCuando sean 12 de la noche y el año barbudo se va\nAgarro mi cuatrico y mi ron, y me voy a abrazar a mamá\nAgarro mi cuatrico y mi ron, y me voy a abrazar a mamá\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nYa yo me despido, compay, de esta Navidad\nYa yo me despido, compay, de esta Navidad\nEl año que viene, caramba, volveré a cantar y a gozar\nEl año que viene, caramba, volveré a cantar y a gozar\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  }
+]
