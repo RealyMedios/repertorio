@@ -1,11 +1,50 @@
 [
   {
-    "id": 4,
+    "id": 37,
     "genero": "PARRANDA",
     "titulo": "EL COCOUY QUE ALUMBRA",
-    "tonalidad": "RE",
+    "tonalidad": "Re",
     "carpeta": "ELCOCOUY",
-    "letra": "",
+    "letra": "Vámonos muchachos a\n\n        \n\ncorrer sabana, vámonos\n\n               \n\nmuchachos a correr sabana,\n\n       \n\n  a correr sabana,\n\n          \n\n  el cucuy que alumbra\n\n     \n\ntoda la montaña  el\n\n              \n\ncucuy que alumbra toda\n\n     \n\nla montaña. (Bis)\n\nYo quisiera ser como el aeroplano,\n\nyo quisiera ser como el aeroplano,\n\ncomo el aeroplano que vuela\n\nen invierno igual que en\n\nverano, que vuela en invierno\n\nigual que en verano.\n\nVámonos muchachos...\n\nSe fue el año veinte que\n\nviva el veintiuno, se fue\n\nel año veinte que viva el\n\nveintiuno, que viva el veintiuno\n\nque viva Cuyagua que todos\n\nson uno, que viva Cuyagua\n\nque todos son uno.\n\nVámonos muchachos...\n\nOye Maria Díaz de mi corazón,\n\noye Maria Díaz de mi corazón,\n\nde mi corazón u tienes la\n\nculpa yo tengo razón, u tienes\n\nla culpa yo tengo razón.\n\nVámonos muchachos...\n\nAl pueblo\\'e Cuyagua nosotros\n\nnos vamos, al pueblo\\'e Cuyagua\n\nnosotros nos vamos, nosotros\n\nnos vamos y el año que viene\n\npor aquí pasamos, y el año\n\nque viene por aquí pasamos.",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 38,
+    "genero": "GAITAS",
+    "titulo": "LA CACHUA",
+    "tonalidad": "Si",
+    "carpeta": "LACACHUA",
+    "letra": "LA CACHUA\n\nAGRUPACION: Estrellas Del Zulia\nCANCION: La Cachua\n\nI\nmuy buenas noches señoras\ny señoritas\nes la cachua\nque los viene a saludar\ntrayéndote de lo mejor\nde margarita\nPa que lo bailen\nen este lugar (bis)\n\nCORO\nSi no me dan de beber\nVoy a botar la comida\nPorque yo sin la bebida\nNo siento ningún placer (bis)\n\nII\nMe la trajeron a pie\nDe margarita\nPara gozarlo\nAquí en este lugar\nSu musiquita\nes tan buena y sabrosita\nEs la cachua\nque los viene a ser bailar (bis)\n\nIII\nvoy a botar la comida\nsi no me dan de beber  (bis 4)",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 39,
+    "genero": "GAITAS",
+    "titulo": "LAS CARAQUEÑAS",
+    "tonalidad": "Sol m",
+    "carpeta": "CARAQUEÑAS",
+    "letra": "Que son y son sabrosas\nNo sé que tienen las chicas lindas\nQue de Caracas\nCon su caminar tan sabrosón\nQue a todo el mundo arrebata\nCuando las miro al pasar\nEl cuerpo se me estremece\nNo puedo hablar, solo mirar\nPues mudo quedé\nY si las miro otra vez\nMe moriré\nY es que tienen un swing\n'Chacho\nAy, no sé que tienen las chicas lindas\nQue de Caracas\nCon su caminar tan sabrosón\nQue a todo el mundo arrebata\nCuando las miro al pasar\nEl cuerpo se me estremece\nNo puedo hablar solo mirar\nPues mudo quedé, sí\nY si las miro otra vez\nMe moriré\nEsas jevas de Caracas\nMe tiene un ojo gasta'o\n(Cómo caminan)\n(Las caraqueñas)\nY cuando voy al litoral\nSu piel bronceada por el sol, seguramente\nMamita rica, me fascina\n(Cómo caminan)\n(Las caraqueñas)\nYo pienso que todo lo tienen\nBelleza, pureza, inteligencia\nCosa más grande, caraqueña\n(Cómo caminan)\n(Las caraqueñas)\nTienen un camina'o\nDulce como el melao\nNo como nada, como todo\nA las en la Metropolitana y la Santa Maria, ven\nA la Católica y a la Central, canto yo\n(Cómo caminan)\n(Las caraqueñas)\nY si tú vas por Las Mercedes\nPrados del Este y en El Rosal tú te detienes\n(Cómo caminan)\n(Las caraqueñas)\nAy, pero mira que son de Caracas\nLas chicas que a mi me gustan, pa' gozar\nMacaco\nNo te llevo nylon\nAy, cómo gozo, porque ellas bailan sabroso, sabroso\n(Mira como bailan las caraqueñas)\n(Pero mira como gozan, ven pa' que veas)\nEs que, baila con Guaco este sabroso son\nMira caraqueñas que sabroso estoy\n(Mira como bailan las caraqueñas)\n(Pero mira como gozan, ven pa' que veas)\nAy, ven, vale-quin-qui-quin-quin, vale-quin-quin-quin\nLes suenan las cinturas las mulatas del San Agustín",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 40,
+    "genero": "PARRANDA",
+    "titulo": "EL GAVILAN",
+    "tonalidad": "Fa",
+    "carpeta": "ELGAVILAN",
+    "letra": "Letra de El Gavilán de Simón Díaz\nverse\nSi el gavilán se comiera\n¡Ay!, se comiera como se come al ganao\nSi el gavilán se comiera\n¡Ay!, se comiera como se come al ganao\nYa yo me hubiera comido al gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nEste gavilán, primito\nOye, primito, pequeño y gran volador\nEste gavilán, primito\nOye, primito, pequeño y gran volador\nQue se remonta en lo alto\nPara divisar al pichón\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nCanoero del río Arauca\nDel río Arauca pásame pa′l otro lao\nCanoero del río Arauca\nDel río Arauca pásame pa'l otro lao\nQue me viene persiguiendo el gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nEn la barranca de Apure\n¡Ay!, de Apure suspiraba un gavilán\nEn la barranca de Apure\nOye de Apure suspiraba un gavilán\nY en el suspiro decía\n\"Muchachas de Camaguán\"\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nSi el gavilán se comiera\nComo se come al ganao\nYa yo me hubiera comido el gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nWriter(s): Simon Diaz",
     "secciones": {
       "armonia": [],
       "percusion": [],
@@ -32,19 +71,6 @@
     "tonalidad": "Labm",
     "carpeta": "AYER",
     "letra": "Ayer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nAún guardo aquella carta que me escribiste\nDe un rojo pasional tenía una marca\nTu firma junto al clavel me puso triste\nAún guardo aquella carta que me escribiste\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien, dice el cantor, lo pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión, pues la vida es muy corta\nLlenemos de calor el corazón\n\nAroma de perdón añora nuestro ser\nPerfume de ilusión de un nuevo amanecer\nFrescor de primavera por toda eternidad\nAroma de perdón añora nuestro ser\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien dice el cantor, los pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión pues la vida es muy corta\nLlenemos de calor el corazón\n\nAyer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nOigan bien sin temor lo que enseña la vida señores\nNo te busques otra herida con el mismo error, oigan bien\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nTiren ya todas las penas y busquen la vida buena\nCon cariño y armonía como el agua y la arena qué bueno\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nAnímense, sacúdanse, acérquense sin problema, familia\nRa-ca-ta-ca-ta, cu-cun-cun-pra\nYa los cueros te llaman, te llaman\n\n",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 34,
-    "genero": "GAITAS",
-    "titulo": "LAS CARAQUEÑAS",
-    "tonalidad": "Sol m",
-    "carpeta": "CARAQUEÑAS",
-    "letra": "",
     "secciones": {
       "armonia": [],
       "percusion": [],
@@ -84,45 +110,6 @@
     "tonalidad": "Re",
     "carpeta": "CARMELA",
     "letra": "La luna no engaña a nadie ay Carmela, La luna no engaña a nadie\n    \nCarmela, oh, que la engañada fui yo oh, leroh, lero y lero la, a\n   \noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nMaldito sea el amor, oye Carmela maldito sea el amor\nCarmela, oh, el amor, maldito sea oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl amor tiene la culpa oye Carmela el amor tiene la culpa\nCarmela, oh, que yo en trabajo me vea oh, leroh, lero y lero la, a oh,\nleroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro cuerdas tiene el cuatro ay, Carmela, cuatro cuerdas tiene el cuatro\nCarmela, oh, duro suena la tambora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro mil deseos tiene oye Carmela cuatro mil deseos tiene\nCarmela, oh, la mujer que se enamora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nLas mujeres no te quieren ay Carmela, las mujeres no te quieren\nCarmela, oh, porque dicen que eres feo oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPero te le vas metiendo oye Carmela pero te le vas metiendo\nCarmela, oh, como sortija en el dedo Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl que cantare conmigo, oye Carmela el que cantare conmigo\nCarmela, oh, se revienta y echa sangre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPues tengo la voz de acero, oye Carmela pues tengo la voz de acero\nCarmela, oh, y mi garganta es de alambre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 18,
-    "genero": "GAITAS",
-    "titulo": "LA CACHUA",
-    "tonalidad": "Si",
-    "carpeta": "LACACHUA",
-    "letra": "",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 32,
-    "genero": "PARRANDA",
-    "titulo": "EL GAVILAN",
-    "tonalidad": "Fa",
-    "carpeta": "ELGAVILAN",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 29,
-    "genero": "PARRANDA",
-    "titulo": "EL NEGRO Y EL CATIRE",
-    "tonalidad": "Re m",
-    "carpeta": "ELNEGRO",
-    "letra": "",
     "secciones": {
       "armonia": [],
       "percusion": [],
