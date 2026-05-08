@@ -128,5 +128,18 @@
       "percusion": [],
       "armonia": []
     }
+  },
+  {
+    "id": 67,
+    "genero": "MERENGUES",
+    "titulo": "ASI COMO BAILAS",
+    "tonalidad": "",
+    "carpeta": "ASÍCOMOBAILAS",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
   }
 ]
