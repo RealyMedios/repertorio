@@ -13,14 +13,16 @@
     }
   },
   {
-    "id": 10,
+    "id": 22,
     "genero": "PARRANDA",
     "titulo": "PRESENTACION - EL HOJAL",
     "tonalidad": "re m",
-    "carpeta": "el-hojal",
+    "carpeta": "PRESENTACION-EL-HOJAL ",
     "letra": "",
     "secciones": {
-      "armonia": [],
+      "armonia": [
+        "PIANO"
+      ],
       "percusion": [],
       "vientos": []
     }
