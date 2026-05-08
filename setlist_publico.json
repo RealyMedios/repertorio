@@ -1,18 +1,5 @@
 [
   {
-    "id": 1,
-    "genero": "PARRANDA",
-    "titulo": "LAS CARAQUEÑAS",
-    "tonalidad": "sol m",
-    "carpeta": "caraqueñas",
-    "letra": "",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
     "id": 2,
     "genero": "PARRANDA",
     "titulo": "LOS GAVILANES",
