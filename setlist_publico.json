@@ -13,6 +13,19 @@
     }
   },
   {
+    "id": 10,
+    "genero": "PARRANDA",
+    "titulo": "PRESENTACION - EL HOJAL",
+    "tonalidad": "re m",
+    "carpeta": "el-hojal",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 3,
     "genero": "PARRANDA",
     "titulo": "MI MAMA NO QUIERE",
