@@ -1,18 +1,5 @@
 [
   {
-    "id": 41,
-    "genero": "PARRANDA",
-    "titulo": "EL NEGRO Y EL CATIRE",
-    "tonalidad": "Re m",
-    "carpeta": "ELNEGRO",
-    "letra": "Se conocieron los dos\n\n             \n\npor los lados de Payara\n\nuno levantó la voz y el otro\n\n       \n\nno dijo nada.\n\n                          \n\nSe pusieron a pelear no quedaba\n\n    \n\nmá remedio Mucuritas,\n\nel Yagual y las Queseras\n\n   \n\ndel Medio.\n\n             \n\nAgarraron lanza en mano\n\n                     \n\nrepartieron sangre y grito\n\n         \n\nel catire comandando\n\n                  \n\ny el negro de primerito.\n\n            \n\nPero el catire lloró...porque\n\n              \n\ncon el pecho abierto\n\n             \n\nel negro le dijo adiós\n\n              \n\nporque estaba muerto.\n\n\n\n   \n\n             \n\nAgarraron lanza en mano\n\n                     \n\nrepartieron sangre y grito\n\n         \n\nel catire comandando\n\n                  \n\ny el negro de primerito.\n\n            \n\nPero el catire lloró...porque\n\n              \n\ncon el pecho abierto\n\n             \n\nel negro le dijo adiós,\n\n                      \n\nadiós...porque estaba muerto.",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
     "id": 42,
     "genero": "PARRANDA",
     "titulo": "EL VELERO",
@@ -281,6 +268,110 @@
     "tonalidad": "Re",
     "carpeta": "ELCOCOUY",
     "letra": "Vámonos muchachos a\ncorrer sabana, vámonos\nmuchachos a correr sabana,\na correr sabana,\nel cucuy que alumbra\ntoda la montaña  el\ncucuy que alumbra toda\nla montaña. (Bis)\nYo quisiera ser como el aeroplano,\nyo quisiera ser como el aeroplano,\ncomo el aeroplano que vuela\nen invierno igual que en\nverano, que vuela en invierno\nigual que en verano.\nVámonos muchachos...\nSe fue el año veinte que\nviva el veintiuno, se fue\nel año veinte que viva el\nveintiuno, que viva el veintiuno\nque viva Cuyagua que todos\nson uno, que viva Cuyagua\nque todos son uno.\nVámonos muchachos...\nOye Maria Díaz de mi corazón,\noye Maria Díaz de mi corazón,\nde mi corazón u tienes la\nculpa yo tengo razón, u tienes\nla culpa yo tengo razón.\nVámonos muchachos...\nAl pueblo\\'e Cuyagua nosotros\nnos vamos, al pueblo\\'e Cuyagua\nnosotros nos vamos, nosotros\nnos vamos y el año que viene\npor aquí pasamos, y el año\nque viene por aquí pasamos.",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 55,
+    "genero": "BOLERO",
+    "titulo": "EL YERBERITO",
+    "tonalidad": "",
+    "carpeta": "ELYERBERITO",
+    "letra": "Se oye el rumor de un pregonar\nQue dice así\nEl yerberito llegó, llegó\nTraigo yerba santa pa' la garganta\nTraigo keisimon pa' la hinchazón\nTraigo abrecaminos pa' tu destino\nTraigo la ruda pa' el que estornuda\nTambién traigo albahaca pa' la gente flaca\nEl apazote para los brotes\nEl vetiver para el que no ve\nY con esa yerba se casa usted\nYerbero\nTraigo yerba santa pa' la garganta\nTraigo keisimon pa' la hinchazón\nTraigo abrecaminos pa' tu destino\nTraigo la ruda pa' el que estornuda\nTambién traigo albahaca pa' la gente flaca\nEl apazote para los brotes\nEl vetiver para el que no ve\nY con esa yerba se casa usted\nAy que yo traigo abrecaminos pa' tu destino\nY con esa yerba se casa usted\nOye yo traigo keisimon pa' la hinchazón\nY con esa yerba se casa usted\nAy que yo traigo yerba santa pa' la garganta\nY con esa yerba se casa usted\nY con esa yerba se casa usted\nAy que yo traigo abrecaminos pa' tu destino\nY con esa yerba se casa usted\nAy yo traigo keisimon pa' la hinchazón\nY con esa yerba se casa usted",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 56,
+    "genero": "BOLERO",
+    "titulo": "TU ME HACES FALTA",
+    "tonalidad": "",
+    "carpeta": "TUMEHACESFALTA",
+    "letra": "Ya que no puedo\nDecírtelo al oído\nPor la suerte cruel\nQue nos separa\n\nQuiero decirte\nPor medio de este canto\nQue no puedo seguir\nSufriendo tanto\n\nTú me haces falta\nTal vez más que mi vida\nY mi vida eres tú\nY te me has ido\n\nQue pretendes\nMi amor que yo te quiera\nSi tu, en cambio\nMe pagas con olvido\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 59,
+    "genero": "GAITAS",
+    "titulo": "AMPARITO",
+    "tonalidad": "",
+    "carpeta": "AMPARITO",
+    "letra": "Ey, ey, ey\nYeh-cua, ah\nY pa' Barranquilla me voy sabroso\nCon Amparito asi nama', jai, epa\nEn un viaje que hice a Barranquilla\nConocí a una linda Colombiana\nOmbe, que, me quedé con las ganas\nDe casarme con esa chiquilla\nEn un viaje que hice a Barranquilla\nConocí a una linda Colombiana\nOmbe, que, me quedé con las ganas\nDe casarme con esa chiquilla, ay, ombe\nqué, qué\n(Amparito) eh\nTe olvidaste del negrito\nTu Maracuchito\n(Amparito) pero que bueno\n(Amparito) eh\nTe creía mujer buena\nTe fuiste pa' Cartagena, ja\n(Amparito)\n(Amparito)\n(Yo estaba pensando que tal vez buscando)\n(Por toda Colombia, me estaba esperando)\n(Porque yo pensaba que me idolatrabas con el corazón)\nOk, Bartulio, óyelo sabroso, sigan las caderas, me voy\nAmparito baila con soltura\nCuando escucha este ritmo, mi hermano\nElla dice que el Venezolano\nAy, si tiene fuego en la cintura\nAmparito baila con soltura\nCuando escucha este ritmo, mi hermano\nElla dice, dice que el Venezolano\nAy, si tiene fuego en la cintura, Amparito\nqué, qué\n(Amparito) eh\nQuiero sentarme contigo en la yerbita\nY decirte lindas cositas\n(Amparito) pero qué bueno\n(Amparito) Que\nMe creí del mundo dueño\nPero solo era un sueño, ja\n(Amparito)\n(Amparito)\n(Yo estaba pensando que tal vez buscando)\n(Por toda Colombia, me estaba esperando)\n(Porque yo pensaba que me idolatrabas con el corazón)\nOye Bartulia, cómo dice este grupito, así na' má', ay\nY pa' que lo gocen todos aquí con Amparito, muy bueno, ja\nGózalo, Menence, ja\nEh\n(Amparito) pero qué rico\n(Amparito) esta cumbita\n(Amparito) pa' que lo goces\n(Amparito) linda negrita\nPara que parala, que parala, que parala, que parala, que parala Amparito\nOye qué rico\nVente pa' acá\nOye negrita\nBueno y nos fuimo' sabroso con Amparito, na' más así, ay\nAmparito, aunque mal pagues",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 57,
+    "genero": "GAITAS",
+    "titulo": "LA BOTELLITA",
+    "tonalidad": "",
+    "carpeta": "LABOTELLITA",
+    "letra": "I\nQue cuando salgo a parrandear\nParrandeo y no me canso\nPorque yo soy como el ganso\nCuando se tira  a nadar (bis)\n\nCORO\nComadrita la rana (Señor señor)\nLlego su marido (Si señor)\nY que le trajo (Un ropón)\nDe qué color (Verde limón)\nVamos a misa (no tengo camisa)\nVamos al sermón (no tengo ropón)\nLa botellita  (no tiene tapita)\nY el garrafón (no tiene tapón)\nQuítale quítale quítale quítale  \nQuítale pon  hay pero\nQuítale quítale quítale quítale  \nQuitale pon pon pon\nNo tiene tapón pon pon\nNo tiene tapón\n\nII\nParaulata tinadora\nQue por estas selvas cantas\nEl eco de tu garganta\nEs el que a mí me enamora (bis)\n\nIII\nDe los hijos de mama\nYo soy el bollo pelón\nSoy el que toma más ron\nCon mas extremosidad (bis)\n\nIV\nA pascuas Pa que durara\nQue diría mama de mi\nDesde el día en que Salí\nNo me ha vuelto a ver la cara (bis)",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 58,
+    "genero": "GAITAS",
+    "titulo": "LA GAITA VIEJA DEL SALADILLO",
+    "tonalidad": "",
+    "carpeta": "LAGAITAVIEJA",
+    "letra": "¡Bueno vamos a formar la parranda hermano!\n¡Catire, decime que teneí por ahí!\nMuchachos que les parece si armamos\nUna parranda en el bohío de Alex prieto\nChico con una gaita del año 1.800 que dice así escucha\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo ¡Sabrosa!\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo ¿Y el furro?\nDe la gaita vieja la que se hacía en el saladillo\n¡Hey ustedes aprenden rápido ah!\nVerso 1\nA la luna con sus rayos que ilumine mi camino\nQue se me perdió un cochino, cuatro gallinas y un gallo\nA la luna con sus rayos que ilumine mi camino\nQue se me perdió un cochino, cuatro gallinas y un gallo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos ¡Claro!\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\n¡Y lo decimos viejito así ve, Póngale sabor, póngale sabor!\nVerso 2\nMucho me gusta cantar, mucho me gusta beber\nPero mas me gusta estar en brazos de una mujer\nMucho me gusta cantar, mucho me gusta beber\nPero mas me gusta estar en brazos de una mujer\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos ¡Vamos maraquita!\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nVerso 3\nUn cuartillo es un cuartillo, dos cuartillos medio real\nTres cuartillos, tres cuartillos\nCuatro cuartillos un real\nUn cuartillo es un cuartillo, dos cuartillos medio real\nTres cuartillos, tres cuartillos\nCuatro cuartillos un real\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo ¿Cuales?\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nOtra vez, Otra vez\nDe la gaita vieja la que se hacía en el Saladillo\n¡Hay chico Ludovico se quedó dormido!\nHey y Angelina también hermano",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 54,
+    "genero": "BOLERO",
+    "titulo": "LAGRIMAS NEGRA",
+    "tonalidad": "",
+    "carpeta": "LAGRIMAS-NEGRAS",
+    "letra": "Aunque tu, me has echado en el abandono\n\nAunque tu, has muerto todas mis ilusiones\n\nY en vez, de maldecirte con justo encono\nEn mis sueños te colmo, en mis sueños te colmo\nDe bendiciones\n\nSufro la inmensa pena de tu extravío\nSiento el dolor profundo de tu partida\nY lloro sin que sepas que el llanto mio\nTiene lagrimas negras, tiene lagrimas negras\nComo mi vida\n\nTu me quieres dejar, yo no quiero sufrir\nContigo me voy mi santa aunque me cueste morir\n\nUn jardinero de amor, siembra una flor y se va\nOtro viene la cultiva, de cual de los dos sera\n\nAmada prenda querida, no puedo vivir sin verte\nPorque mi fin es quererte y amarte toda la vida\n\nYo te lo digo mi amor, te lo repito otra vez\nContigo me voy mi santa porque contigo moriré\n\nYo te lo digo mi amor, que contigo morire\nContigo me voy mi santa te lo repito otra vez",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 60,
+    "genero": "GAITAS",
+    "titulo": "LA PRIMAVERA",
+    "tonalidad": "",
+    "carpeta": "LAPRIMAVERA",
+    "letra": "Ya llego un nuevo dia\nnegra que me has guardado\nya llego un nuevo dia\nnegra que me has guradado\nnunca yo te he olvidado\nlo juro vida mia\nnunca yo te he olvidado\nlo juro vida mia.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nEl 22 de marzo\nentra la primavera\nel 22 de marzo\nentra la primavera.\n\nEntra alegria a mi tierra\nyo adorare este canto\nentra alegria a mi tierra\nyo adorare este canto.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nTu eres en primavera\nla mujer mas hermosa\ntu eres en primavera\nla mujer mas hermosa\nquiero de ti una cosa\nque sea por vez primera\nquiero de ti una cosa\nque sea por vez primera.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nGoza este ritmo\nen primavera\npa que lo bailes.\n\n\nYo te traigo pa que gozes\nesta rica primavera\noye la cosa buena\nyo quiero una mujer\nque a mi me quiera.\n\nGoza este ritmo\nen primavera\npa que lo bailes.\n\nBailala, gozala, cantala\neste ritmo suavecito,\nporque yo soy el que soy\nel verdugo de amparito.\n\nGoza este ritmo\nen primavera\npa que lo bailes\ncomo tu quieras.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 53,
+    "genero": "PARRANDA",
+    "titulo": "EL NEGRO Y EL CATIRE",
+    "tonalidad": "Re m",
+    "carpeta": "ELNEGRO",
+    "letra": "Se conocieron los dos\npor los lados de Payara\nuno levantó la voz y el otro\nno dijo nada.\nSe pusieron a pelear no quedaba\nmá remedio Mucuritas,\nel Yagual y las Queseras\ndel Medio.\nAgarraron lanza en mano\nrepartieron sangre y grito\nel catire comandando\ny el negro de primerito.\nPero el catire lloró...porque\ncon el pecho abierto\nel negro le dijo adiós\nporque estaba muerto.\nAgarraron lanza en mano\nrepartieron sangre y grito\nel catire comandando\ny el negro de primerito.\nPero el catire lloró...porque\ncon el pecho abierto\nel negro le dijo adiós,\nadiós...porque estaba muerto.",
     "secciones": {
       "vientos": [],
       "percusion": [],
