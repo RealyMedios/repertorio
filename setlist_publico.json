@@ -13,6 +13,19 @@
     }
   },
   {
+    "id": 33,
+    "genero": "PARRANDA",
+    "titulo": "PRESENTACION - EL HOJAL",
+    "tonalidad": "re m",
+    "carpeta": "PRESENTACION-EL-HOJAL",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 6,
     "genero": "PARRANDA",
     "titulo": "CON MI BOTELLITA E RON ",
@@ -261,19 +274,6 @@
       "vientos": [],
       "percusion": [],
       "armonia": []
-    }
-  },
-  {
-    "id": 28,
-    "genero": "PARRANDA",
-    "titulo": "PRESENTACION - EL HOJAL",
-    "tonalidad": "re m",
-    "carpeta": "PRESENTACION-EL-HOJAL",
-    "letra": "",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
     }
   }
 ]
