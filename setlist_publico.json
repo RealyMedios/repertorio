@@ -13,6 +13,19 @@
     }
   },
   {
+    "id": 35,
+    "genero": "BOLERO",
+    "titulo": "AYER",
+    "tonalidad": "Labm",
+    "carpeta": "AYER",
+    "letra": "Ayer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nAún guardo aquella carta que me escribiste\nDe un rojo pasional tenía una marca\nTu firma junto al clavel me puso triste\nAún guardo aquella carta que me escribiste\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien, dice el cantor, lo pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión, pues la vida es muy corta\nLlenemos de calor el corazón\n\nAroma de perdón añora nuestro ser\nPerfume de ilusión de un nuevo amanecer\nFrescor de primavera por toda eternidad\nAroma de perdón añora nuestro ser\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien dice el cantor, los pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión pues la vida es muy corta\nLlenemos de calor el corazón\n\nAyer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nOigan bien sin temor lo que enseña la vida señores\nNo te busques otra herida con el mismo error, oigan bien\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nTiren ya todas las penas y busquen la vida buena\nCon cariño y armonía como el agua y la arena qué bueno\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nAnímense, sacúdanse, acérquense sin problema, familia\nRa-ca-ta-ca-ta, cu-cun-cun-pra\nYa los cueros te llaman, te llaman\n\n",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 34,
     "genero": "GAITAS",
     "titulo": "LAS CARAQUEÑAS",
@@ -58,19 +71,6 @@
     "tonalidad": "Re",
     "carpeta": "CARMELA",
     "letra": "La luna no engaña a nadie ay Carmela, La luna no engaña a nadie\n    \nCarmela, oh, que la engañada fui yo oh, leroh, lero y lero la, a\n   \noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nMaldito sea el amor, oye Carmela maldito sea el amor\nCarmela, oh, el amor, maldito sea oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl amor tiene la culpa oye Carmela el amor tiene la culpa\nCarmela, oh, que yo en trabajo me vea oh, leroh, lero y lero la, a oh,\nleroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro cuerdas tiene el cuatro ay, Carmela, cuatro cuerdas tiene el cuatro\nCarmela, oh, duro suena la tambora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro mil deseos tiene oye Carmela cuatro mil deseos tiene\nCarmela, oh, la mujer que se enamora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nLas mujeres no te quieren ay Carmela, las mujeres no te quieren\nCarmela, oh, porque dicen que eres feo oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPero te le vas metiendo oye Carmela pero te le vas metiendo\nCarmela, oh, como sortija en el dedo Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl que cantare conmigo, oye Carmela el que cantare conmigo\nCarmela, oh, se revienta y echa sangre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPues tengo la voz de acero, oye Carmela pues tengo la voz de acero\nCarmela, oh, y mi garganta es de alambre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 31,
-    "genero": "BOLERO",
-    "titulo": "AYER",
-    "tonalidad": "Labm",
-    "carpeta": "AYER",
-    "letra": "",
     "secciones": {
       "armonia": [],
       "percusion": [],
