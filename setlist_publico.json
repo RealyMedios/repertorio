@@ -37,5 +37,243 @@
       "percusion": [],
       "vientos": []
     }
+  },
+  {
+    "id": 31,
+    "genero": "BOLERO",
+    "titulo": "AYER",
+    "tonalidad": "Labm",
+    "carpeta": "AYER",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 18,
+    "genero": "GAITAS",
+    "titulo": "LA CACHUA",
+    "tonalidad": "Si",
+    "carpeta": "LACACHUA",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 32,
+    "genero": "PARRANDA",
+    "titulo": "EL GAVILAN",
+    "tonalidad": "Fa",
+    "carpeta": "ELGAVILAN",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 29,
+    "genero": "PARRANDA",
+    "titulo": "EL NEGRO Y EL CATIRE",
+    "tonalidad": "Re m",
+    "carpeta": "ELNEGRO",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 14,
+    "genero": "PARRANDA",
+    "titulo": "EL RELOJ",
+    "tonalidad": "Si",
+    "carpeta": "ELRELOJ",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 17,
+    "genero": "PARRANDA",
+    "titulo": "EL VELERO",
+    "tonalidad": "Sol m",
+    "carpeta": "ELVELERO",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 5,
+    "genero": "PARRANDA",
+    "titulo": "LA BURRA",
+    "tonalidad": "si m",
+    "carpeta": "LABURRA",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 19,
+    "genero": "PARRANDA",
+    "titulo": "LAS CARAQUEÑAS",
+    "tonalidad": "sol m",
+    "carpeta": "caraqueñas",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": [
+        "piano"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "genero": "PARRANDA",
+    "titulo": "LOS CADETES",
+    "tonalidad": "SOLM",
+    "carpeta": "LOSCADETES",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 27,
+    "genero": "PARRANDA",
+    "titulo": "LOS GAVILANES",
+    "tonalidad": "SOL M",
+    "carpeta": "GAVILANES",
+    "letra": " En la curva de San Pablo casi llegando a Carora se formó la sampablera;                                                              \n\n tenían una discusión el Gavilán de Don Pío y el Gavilán de Canela  (Bis)\n\n  Ay! Gavilán Trabalengua; Ay! Gavilán Tocuyano   \n\n  Pío Alvarado y Canela    se dan la mano (Bis)\n\n  Gavilán    de pío, pío, gavilán de tao, tao (Bis)\n\n  Con su pico amarilerilerillo, con su pico rosaledaledao\n\n  con su piquito amarilerilerillo, con su pico rosaledaledao\n\n\nEl Gavilán del Tocuyo le dijo al de Cuararigua: hace calor en Carora,\n\nQue los matos se protegen con la sombra de los chivos y cargan su cantimplora! (Bis)\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara:\n\nLos Tocutocuyaledaledanos van tomados de la mano como hermanedaledanos\n\ncon su cántaro virano tamunangueándole y dándole por todiquitiquitiqui-tiqui-tiqui\n\nel Estado Lara! (Bis)\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara...\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara...",
+    "secciones": {
+      "armonia": [
+        "CUATRO"
+      ],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 15,
+    "genero": "PARRANDA",
+    "titulo": "MARIA ANTONIA",
+    "tonalidad": "",
+    "carpeta": "MARIAA",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 16,
+    "genero": "PARRANDA",
+    "titulo": "MARIA JOSEFA",
+    "tonalidad": "sol m",
+    "carpeta": "MARIAJ",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 7,
+    "genero": "PARRANDA",
+    "titulo": "MI COMAE",
+    "tonalidad": "",
+    "carpeta": "MICOMAE",
+    "letra": "TITULO: Mi Comae\n\nI\nMi comae lavaba\nA la orilla del rio (bis)\nY tiritaba pues sentía frio\nQuien la manda a usted a lavar\nDe noche en el rio (bis)\n\nCORO\nHay mi comae\nLa parranda es buena\nPorque la cantamos\nCon sabor a Venezuela (bis)\nComo baila la morena\nCon esta parranda buena\nY le gusta a Micaela\nCon sabor a Venezuela\nLa negritud la revela\nCon esta parranda buena\nHay parranda que de la buena\nCon sabor a Venezuela\n\nII\nA mi comae le gusta\nSu novio bombero (bis)\nPorque tiene agua\nY le apaga el fuego\nTenga usted cuidao mi comae\nCon el candelero  (bis)\n\nIII\nMi comae tiene\nuna paloma negra (bis)\nElla la acaricia\ny revolotea\nTenga usted cuidao mi comae\nLa paloma vuela",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 3,
+    "genero": "PARRANDA",
+    "titulo": "MI MAMA NO QUIERE",
+    "tonalidad": "MI",
+    "carpeta": "MIMAMA",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 12,
+    "genero": "PARRANDA",
+    "titulo": "POPURRI DE AGUINALDO",
+    "tonalidad": "",
+    "carpeta": "",
+    "letra": "rella..\nBueno pues señores\nMe voy despidiendo (Bis)\nPorque tengo sueño y está amaneciendo (Bis)\nCoro\nLA CAPILLA ESTÁ ABIERTA DE NOCHE Y DE DIA\nREZAREMOS TODOS EL AVE MARIA (BIS) x 3\nEl niño Jesús  AY TU AY TU!\nNació caminando\nCon su maraquita pidiendo Aguinaldos (Bis)\nCoro\nHAY UN LIRIO QUE EL TIEMPO LO CONSUME\nHAY UNA FUENTE QUE LO HACE FLORECER (Bis)\nTU ERES EL LIRIO DAME TU PERFUME\nYO SOY LA FUENTE, DÉJAME CORRER. (Bis)\nPor aquí pasó\nUn desconocido\nCantando aguinaldos\nPara mis amigos (Bis)\nCoro\nTILINGO TILINGO\nMAÑANA ES DOMINGO\nSUENAN LAS CAMPANAS DE LA NAVIDAD\nNAVIDAD NAVIDAD\nPARA QUE GOCES LA NAVIDAD (BIS)\nSuenan las campanas (TILIN TILIN)\nDe la Navidad (TILIN TILIN) (BIS)\nPorque VAMOS todos PA (BIS)\nLA FELICIDAD (BIS)\nCoro\nTilingo Tilingo...\nMAÑANA ES DOMINGO\nSUENAN LAS CAMPANAS DE LA NAVIDAD\nNAVIDAD NAVIDAD\nPARA QUE GOCES LA NAVIDAD (BIS)\nY para todos ustedes!!!!\nCORO..\nUN FELIZ AÑO PA TI\nUN FELIZ AÑO PA ELLA\nUN FELIZ AÑO PA TODOS\nUN FELIZ AÑO PA TI\nUN FELIZ AÑO PA ELLA UN FELIZ AÑO PA TODOS UN FELIZ AÑO!!",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 11,
+    "genero": "PARRANDA",
+    "titulo": "POPURRI MARACAIBO15",
+    "tonalidad": "HOY MIRE LA GARZA(LAm) DONDE MANDA CAPITAN(LAm) MOSQUITO(LAm) TUNTUN(MI) ARUMBAM VAYA(Mi)",
+    "carpeta": "POPURRIM15",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 9,
+    "genero": "PARRANDA",
+    "titulo": "POPURRI UN SOLO PUEBLO ",
+    "tonalidad": "NEGRO COMO YO (Do) LA GARZA(La) MARIA PALETA(Si) BOTASTE LA BOLA(Sol)",
+    "carpeta": "POPURRIUSP",
+    "letra": "",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 28,
+    "genero": "PARRANDA",
+    "titulo": "PRESENTACION - EL HOJAL",
+    "tonalidad": "re m",
+    "carpeta": "PRESENTACION-EL-HOJAL",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
   }
 ]
