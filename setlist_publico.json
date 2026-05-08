@@ -1,15 +1,15 @@
 [
   {
-    "id": 35,
+    "id": 56,
     "genero": "BOLERO",
-    "titulo": "AYER",
-    "tonalidad": "Labm",
-    "carpeta": "AYER",
-    "letra": "Ayer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nAún guardo aquella carta que me escribiste\nDe un rojo pasional tenía una marca\nTu firma junto al clavel me puso triste\nAún guardo aquella carta que me escribiste\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien, dice el cantor, lo pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión, pues la vida es muy corta\nLlenemos de calor el corazón\n\nAroma de perdón añora nuestro ser\nPerfume de ilusión de un nuevo amanecer\nFrescor de primavera por toda eternidad\nAroma de perdón añora nuestro ser\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien dice el cantor, los pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión pues la vida es muy corta\nLlenemos de calor el corazón\n\nAyer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nOigan bien sin temor lo que enseña la vida señores\nNo te busques otra herida con el mismo error, oigan bien\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nTiren ya todas las penas y busquen la vida buena\nCon cariño y armonía como el agua y la arena qué bueno\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nAnímense, sacúdanse, acérquense sin problema, familia\nRa-ca-ta-ca-ta, cu-cun-cun-pra\nYa los cueros te llaman, te llaman\n\n",
+    "titulo": "TU ME HACES FALTA",
+    "tonalidad": "",
+    "carpeta": "TUMEHACESFALTA",
+    "letra": "Ya que no puedo\nDecírtelo al oído\nPor la suerte cruel\nQue nos separa\n\nQuiero decirte\nPor medio de este canto\nQue no puedo seguir\nSufriendo tanto\n\nTú me haces falta\nTal vez más que mi vida\nY mi vida eres tú\nY te me has ido\n\nQue pretendes\nMi amor que yo te quiera\nSi tu, en cambio\nMe pagas con olvido\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor",
     "secciones": {
-      "armonia": [],
+      "vientos": [],
       "percusion": [],
-      "vientos": []
+      "armonia": []
     }
   },
   {
@@ -26,6 +26,19 @@
     }
   },
   {
+    "id": 35,
+    "genero": "BOLERO",
+    "titulo": "AYER",
+    "tonalidad": "Labm",
+    "carpeta": "AYER",
+    "letra": "Ayer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nAún guardo aquella carta que me escribiste\nDe un rojo pasional tenía una marca\nTu firma junto al clavel me puso triste\nAún guardo aquella carta que me escribiste\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien, dice el cantor, lo pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión, pues la vida es muy corta\nLlenemos de calor el corazón\n\nAroma de perdón añora nuestro ser\nPerfume de ilusión de un nuevo amanecer\nFrescor de primavera por toda eternidad\nAroma de perdón añora nuestro ser\n\nRegresa por favor pues la vida es muy corta\nSalgamos de la duda y del rencor\nMuy bien dice el cantor, los pasado no importa\nDe todo, nuestro orgullo es lo peor\nRenovemos la pasión pues la vida es muy corta\nLlenemos de calor el corazón\n\nAyer encontré la flor que tú me diste\nImagen del amor que me ofreciste\nAún guarda fiel el aroma, aquel tierno clavel\nAyer encontré la flor que tú me diste\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nOigan bien sin temor lo que enseña la vida señores\nNo te busques otra herida con el mismo error, oigan bien\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nTiren ya todas las penas y busquen la vida buena\nCon cariño y armonía como el agua y la arena qué bueno\n\nLevántense y gocen que la vida es corta\nAlégrense por fin que lo demás no importa\nAnímense, sacúdanse, acérquense sin problema, familia\nRa-ca-ta-ca-ta, cu-cun-cun-pra\nYa los cueros te llaman, te llaman\n\n",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 55,
     "genero": "BOLERO",
     "titulo": "EL YERBERITO",
@@ -39,51 +52,12 @@
     }
   },
   {
-    "id": 56,
-    "genero": "BOLERO",
-    "titulo": "TU ME HACES FALTA",
-    "tonalidad": "",
-    "carpeta": "TUMEHACESFALTA",
-    "letra": "Ya que no puedo\nDecírtelo al oído\nPor la suerte cruel\nQue nos separa\n\nQuiero decirte\nPor medio de este canto\nQue no puedo seguir\nSufriendo tanto\n\nTú me haces falta\nTal vez más que mi vida\nY mi vida eres tú\nY te me has ido\n\nQue pretendes\nMi amor que yo te quiera\nSi tu, en cambio\nMe pagas con olvido\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 63,
+    "id": 64,
     "genero": "MERENGUES",
-    "titulo": "APAGAME LA VELA ",
+    "titulo": "UNA FOTOGRAFIA",
     "tonalidad": "",
-    "carpeta": "APAGAMELAVELA",
-    "letra": "A mí una vieja me dijo\nTe tienen velas prendidas\nUnos las sacan de noche\nOtros la prenden de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\nApágame la vela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\n\nA mí una vieja me dijo\nTe tienen velas prendidas\nUnos las prenden de noche\nOtros la sacan de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nPero que apágamela\nMaría\nPero que quitamela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nAy, apágame la vela\nMaría\nPero que quitame esa vela\nMaría\n\nApágame la vela\nMaría\nPero que quitame esa vela\nMaría\nApágamela\nPero que quitamela\nMaría\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que Quitamela\nMaría\nPero que Quitamela\nMaría\nPero que quitala",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 66,
-    "genero": "MERENGUES",
-    "titulo": "CAMA Y MESA",
-    "tonalidad": "",
-    "carpeta": "CAMAYMESA",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 62,
-    "genero": "MERENGUES",
-    "titulo": "EL NEGRITO DEL BATEY ",
-    "tonalidad": "",
-    "carpeta": "ELNEGRITODELBATEY",
-    "letra": "A mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien sabrosa\n\nA mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien preciosa\n\nY dí si a ti no es verdad\nMerengue mucho mejor\nY dí si a ti no es verdad\nMerengue mucho mejor\nPorque esto de trabajar\nA mí me causa dolor\nPorque esto de trabajar\nA mí me causa dolor\n\n¡Candela!\nMucho le gusta el buey manco\nPero nunca le da el tengué\nMucho le gusta el buey manco\nPero nunca le da el tengué\nYo con una negra buena\nBailaré zumban merengue\nYo con una negra buena\nBailaré zumban merengue",
+    "carpeta": "UNAFOTOGRAFIA",
+    "letra": "He vuelto a los lugares\nQue juntos caminamos\nQue juntos recorrimos\nPero no te encontré\nHe vuelto al bulevar\nY al pequeño café\nY al viejo de las flores\nPor ti le pregunté\nAún recuerdo el árbol\nDonde yo te besé\nTú escribiste mi nombre\nY yo el tuyo también\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar y del café\nDel árbol donde la encontré\nNo puedo olvidar\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nUna fotografía\nFue lo que me quedó\nDe aquel bello romance\nQue aún no olvido yo\nVisito los lugares\nDonde íbamos tú y yo\nPero nadie te ha visto\nTu rostro se perdió\nHoy solo quedó\nDe mi Yinet\nSolo una foto guardo yo\nY el cuarto de hotel\nNo puedo olvidar\nDonde tu inocencia se quedó\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar\nY del café\nDel árbol donde la encontré\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -104,6 +78,32 @@
     }
   },
   {
+    "id": 63,
+    "genero": "MERENGUES",
+    "titulo": "APAGAME LA VELA ",
+    "tonalidad": "",
+    "carpeta": "APAGAMELAVELA",
+    "letra": "A mí una vieja me dijo\nTe tienen velas prendidas\nUnos las sacan de noche\nOtros la prenden de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\nApágame la vela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\n\nA mí una vieja me dijo\nTe tienen velas prendidas\nUnos las prenden de noche\nOtros la sacan de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nPero que apágamela\nMaría\nPero que quitamela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nAy, apágame la vela\nMaría\nPero que quitame esa vela\nMaría\n\nApágame la vela\nMaría\nPero que quitame esa vela\nMaría\nApágamela\nPero que quitamela\nMaría\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que Quitamela\nMaría\nPero que Quitamela\nMaría\nPero que quitala",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 62,
+    "genero": "MERENGUES",
+    "titulo": "EL NEGRITO DEL BATEY ",
+    "tonalidad": "",
+    "carpeta": "ELNEGRITODELBATEY",
+    "letra": "A mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien sabrosa\n\nA mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien preciosa\n\nY dí si a ti no es verdad\nMerengue mucho mejor\nY dí si a ti no es verdad\nMerengue mucho mejor\nPorque esto de trabajar\nA mí me causa dolor\nPorque esto de trabajar\nA mí me causa dolor\n\n¡Candela!\nMucho le gusta el buey manco\nPero nunca le da el tengué\nMucho le gusta el buey manco\nPero nunca le da el tengué\nYo con una negra buena\nBailaré zumban merengue\nYo con una negra buena\nBailaré zumban merengue",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
     "id": 65,
     "genero": "MERENGUES",
     "titulo": "SONAMBULO",
@@ -117,12 +117,12 @@
     }
   },
   {
-    "id": 64,
+    "id": 66,
     "genero": "MERENGUES",
-    "titulo": "UNA FOTOGRAFIA",
+    "titulo": "CAMA Y MESA",
     "tonalidad": "",
-    "carpeta": "UNAFOTOGRAFIA",
-    "letra": "He vuelto a los lugares\nQue juntos caminamos\nQue juntos recorrimos\nPero no te encontré\nHe vuelto al bulevar\nY al pequeño café\nY al viejo de las flores\nPor ti le pregunté\nAún recuerdo el árbol\nDonde yo te besé\nTú escribiste mi nombre\nY yo el tuyo también\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar y del café\nDel árbol donde la encontré\nNo puedo olvidar\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nUna fotografía\nFue lo que me quedó\nDe aquel bello romance\nQue aún no olvido yo\nVisito los lugares\nDonde íbamos tú y yo\nPero nadie te ha visto\nTu rostro se perdió\nHoy solo quedó\nDe mi Yinet\nSolo una foto guardo yo\nY el cuarto de hotel\nNo puedo olvidar\nDonde tu inocencia se quedó\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar\nY del café\nDel árbol donde la encontré\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet",
+    "carpeta": "CAMAYMESA",
+    "letra": "",
     "secciones": {
       "vientos": [],
       "percusion": [],
