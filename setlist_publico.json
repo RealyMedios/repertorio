@@ -78,6 +78,19 @@
     }
   },
   {
+    "id": 62,
+    "genero": "MERENGUES",
+    "titulo": "EL NEGRITO DEL BATEY ",
+    "tonalidad": "",
+    "carpeta": "ELNEGRITODELBATEY",
+    "letra": "A mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien sabrosa\n\nA mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien preciosa\n\nY dí si a ti no es verdad\nMerengue mucho mejor\nY dí si a ti no es verdad\nMerengue mucho mejor\nPorque esto de trabajar\nA mí me causa dolor\nPorque esto de trabajar\nA mí me causa dolor\n\n¡Candela!\nMucho le gusta el buey manco\nPero nunca le da el tengué\nMucho le gusta el buey manco\nPero nunca le da el tengué\nYo con una negra buena\nBailaré zumban merengue\nYo con una negra buena\nBailaré zumban merengue",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
     "id": 63,
     "genero": "MERENGUES",
     "titulo": "APAGAME LA VELA ",
@@ -91,12 +104,12 @@
     }
   },
   {
-    "id": 62,
+    "id": 68,
     "genero": "MERENGUES",
-    "titulo": "EL NEGRITO DEL BATEY ",
+    "titulo": "ASI COMO BAILAS",
     "tonalidad": "",
-    "carpeta": "ELNEGRITODELBATEY",
-    "letra": "A mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien sabrosa\n\nA mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien preciosa\n\nY dí si a ti no es verdad\nMerengue mucho mejor\nY dí si a ti no es verdad\nMerengue mucho mejor\nPorque esto de trabajar\nA mí me causa dolor\nPorque esto de trabajar\nA mí me causa dolor\n\n¡Candela!\nMucho le gusta el buey manco\nPero nunca le da el tengué\nMucho le gusta el buey manco\nPero nunca le da el tengué\nYo con una negra buena\nBailaré zumban merengue\nYo con una negra buena\nBailaré zumban merengue",
+    "carpeta": "ASÍCOMOBAILAS",
+    "letra": "Así, así\nAsi Como Baila\nEs Que Me Gusta\nComo Tu Me Miras\nEs Que Me Gusta\nOye Como Tu Me Abrazas\nEs Que Me Gusta\nComo Tu Me Besas\nEs Que Me Gusta\n\nSi, Sí, Así Así\nSi, Si, Así Así\nSi, Si Así Así\nSi, Si Así Así\n\nAsi Como Bailas\nEs Que Me Gusta\nComo Me Acaricias\nEs Que Me Gusta\nOye Como Tu Me Mimas\nEs Que Me Gusta\nComo Tu Me Besas\nEs Que Me Gusta\n\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así\n\nAsi Como Bailas\nEs Que Me Gusta\nComo Me Acarisias\nEs Que Me Gusta\nOye Como Tu Me Aprietas\nEs Que Me Gusta\nComo Tu Me Miras\nEs Que Me Gusta\n\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así\n\nAsi Como Bailas\nEs Que Me Gusta\nComo Tu Me Guiñas\nEs Que Me Gusta\nOye Como Tu Me Abrazas\nEs Que Me Gusta\nComo Tu Me Besas\nEs Que Me Gusta\n\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así\nSi, Si Así Así",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -122,19 +135,6 @@
     "titulo": "CAMA Y MESA",
     "tonalidad": "",
     "carpeta": "CAMAYMESA",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 67,
-    "genero": "MERENGUES",
-    "titulo": "ASI COMO BAILAS",
-    "tonalidad": "",
-    "carpeta": "ASÍCOMOBAILAS",
     "letra": "",
     "secciones": {
       "vientos": [],
