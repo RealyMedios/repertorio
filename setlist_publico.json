@@ -1,135 +1,5 @@
 [
   {
-    "id": 42,
-    "genero": "PARRANDA",
-    "titulo": "EL VELERO",
-    "tonalidad": "Sol m",
-    "carpeta": "ELVELERO",
-    "letra": "Si tú no llegas, morena\nA las orillas del mar\nEl ancla de tu demora\nNo me dejará zarpar\nSi tú no llegas, morena\nA las orillas del mar\nEl ancla de tu demora\nNo me dejará zarpar\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar\nPor eso si tú, mi negra\nTe subes a mi velero\nTu pelo me hará la brisa\nY tu amor serán los remos\nPor eso si tú, mi negra\nTe subes a mi velero\nTu pelo me hará la brisa\nY tu amor serán los remos\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar\nDando rumbo a mi velero\nCon el timón del soñar\nBusco dichas en otros puertos\nQue no me hagan esperar\nDando rumbo a mi velero\nCon el timón del soñar\nBusco dicha en otros puertos\nQue no me hagan esperar\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar\nTengo mi velero, negra\nLo tengo a la orilla 'el mar\nY tan solo por ti espero\nPara irme a navegar",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 43,
-    "genero": "PARRANDA",
-    "titulo": "LA BURRA",
-    "tonalidad": "si m",
-    "carpeta": "LABURRA",
-    "letra": "Yo tengo una burra briosa y andadora (bis)\nQue no se fatiga ya a ninguna hora (bis)\n\nCORO\n¡Burra!\nY a ninguna hora\n¡Burra!\nY a ninguna hora\n¡Burra!\nYo tengo una burra.\n¡Burra!\nbriosa y andadora\n¡Burra!\nQue no se fatiga.\nYa a ninguna hora\n¡Burra!\nQue no se fatiga.\n¡Burra!\nYa a ninguna hora\nY ésta burra tiene azogue en las patas (bis)\nY se bebe el viento de Ocumare a Cata (bis)\n¡Burra!\nde Ocumare a Cata\n¡Burra!\nde Ocumare a Cata\n¡Burra!\nY esta burra tiene\n¡Burra!\nAzogue en las patas\n¡Burra!\nY se bebe el viento.\n¡Burra!\nDe Ocumare a Cata\n¡Burra!\nY se bebe el viento.\n¡Burra!\nDe Ocumare a Cata\nY sus cuatro cascos de acero trotón (bis)\nAy! son un redoblante y en mi corazón(bis)\n¡Burra!\nY En mi corazón\n¡Burra!\nY En mi corazón\n¡Burra!\nY sus cuatro cascos\n¡Burra!\nDe acero trotón\n¡Burra!\nSon un redoblante\n¡Burra!\nY en mi corazón\n¡Burra!\nYo mande la burra\n¡Burra!\nDesde el pueblo é Cata\n¡Burra!\nLlegó a bolivita\n¡Burra!\nY hasta borburata\n¡Burra!\nSe tumbo la burra\n¡Burra!\nVuélvete a parar\n¡Burra!\n\nPor que viene el mambo para descargar.\nY ninguna carga ya a mi burra abruma (bis)\nQue el peso más fuerte y Ella lo hace espuma (bis)\n¡Burra!\nY ella lo hace espuma\n¡Burra!\nY ella lo hace espuma\n¡Burra!\nY ninguna carga\n¡Burra!\nYa a mi burra abruma\n¡Burra!\nel peso más fuerte\n¡Burra!\nY ella lo hace espuma\n¡Burra!\nel peso más fuerte\n¡Burra!\nY ella lo hace espuma\n¡Burra!\nBurra tu no quieres ir a Choroní (bis)\nY ella alza el hocico y dice que sí (bis)\n¡Burra!\nY dice que sí\n¡Burra!\nY dice que sí\n¡Burra!\nBurra tu no quieres\n¡Burra!\nIr a Choroní\n¡Burra!\nEl ella alza el hocico\n\n¡Burra!\nY dice que sí\n¡Burra!\nPase con la burra\n¡Burra!\nY hoy por Naiguatá\n¡Burra!\nY me estalla Antonia\n¡Burra!\nLe cantan atrás\n¡Burra!\nPorque corcovea\n¡Burra!\nPorque me patea\n¡Burra!\nPorque corcovea\n¡Burra!\nPorque me patea\n¡Burra!\nMi pobre burrita\n¡Burra!\nLa pude enrazá\n¡Burra!\nMe dio por colmeja\n¡Burra!\nY un burro-caimán\n¡Burra!\nAy! Báilame la burra\n¡Burra!\nTú le sabes dar\n¡Burra!\nY un pasito alante\n¡Burra!\nY otro para atrás\n¡Burra!\nYo cargué la burra\n¡Burra!\nCon cuatro racimos.\n¡Burra!\nPasé por Aponte\n¡Burra!\nBuscando al amigo\n¡Burra!\nYa se va la burra\n¡Burra!\nYa se va, se va\n¡Burra!\nTía burra tan floja\n¡Burra!\nQuiere descansar\n¡Burra!\nQue si no se para\nLa mando a arrestar.",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 44,
-    "genero": "PARRANDA",
-    "titulo": "LOS CADETES",
-    "tonalidad": "SOLM",
-    "carpeta": "LOSCADETES",
-    "letra": "Por la puerta de mi casa en correcta formación\nVan pasando los cadetes que hoy están de graduación\nUnos son de la Marina, otros son de la Aviación\nOtros Guardias Nacionales y Oficial en formación\nLa Marina tiene un barco, la Aviación tiene un avión\nLos Cadetes tienen sable y la Guardia su cañón\nPero lo que más me gusta y me llena de emoción\nEs que pasen por mi casa en correcta formación\nLa Marina tiene un barco, la Aviación tiene un avión\n(Vamo' a ver a los cadetes que hoy están de graduación)\nLos cadetes tienen sable y la Guardia su cañón\n(Vamo' a ver a los cadetes que hoy están de graduación)\nUnos son de la Marina, otros son de la Aviación\n(Vamo' a ver a los cadetes que hoy están de graduación)\nLo mismo me da un Sargento que un Teniente o General\n(Mamá, yo quiero un cadete de la Escuela Militar)\nQue se parezca a Negrete, a Cantinflas o a Tin Tan\nMamá, yo quiero un cadete de la Escuela Militar\nQue monte en su caballo pa' que me enseñe a montar\nMamá, yo quiero un cadete de la Escuela Militar\nQue sepa bailar la rumba pa' que me enseñe a rumbear\nNo importa que sea gordito, viejo, flaco y cabezón\nLo mismo me da bonito que más feo que un pelón\nPero, mamá, yo quiero un cadete de la Escuela Militar\nA ver si se compromete porque me quiero casar",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 45,
-    "genero": "PARRANDA",
-    "titulo": "MARIA ANTONIA",
-    "tonalidad": "",
-    "carpeta": "MARIAA",
-    "letra": "María Antonia es una mujer que esta loca de remate\nDe la locura que tiene duerme entre el escaparate\nMaría Antonia es una mujer que esta loca de remate\nDe la locura que tiene duerme entre el escaparate\n\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\n\nCuando amanece furiosa con su marido pelea\nSe baña sobre la mesa Y duerme entre la batea\nCuando amanece furiosa con su marido pelea\nSe baña sobre la mesa Y duerme entre la batea\n\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\n\nMaría Antonia se lava el pelo con agua oxigenada\nY le dice a su marido aquí no ha pasado nada\nMaría Antonia se lava el pelo con agua oxigenada\nY le dice a su marido aquí no ha pasado nada\n\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\n\nMaría Antonia es una mujer que está loca de remate\nEscribe con una escoba y barre con un paper mate\nMaría Antonia es una mujer que está loca de remate\nEscribe con una escoba y barre con un paper mate\n\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía\nMaría Antonia tú estás loca déjate de tontería\nMétete en el manicomio y se te quita esa manía",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 46,
-    "genero": "PARRANDA",
-    "titulo": "POPURRI DE AGUINALDO",
-    "tonalidad": "",
-    "carpeta": "",
-    "letra": "Popurri de Aguinaldos de entrada\nCoro\nATENCIÓN MUCHACHO MIRA QUE VIENE\nSE VE POR ENCIMA LA MAR SERENA\nASÍ , COMO EL CANTO DE LA SIRENA\nDÁNDOLE UN ABRAZO  A LA NOCHE BUENA .. (Bis)\nSolo:\nFíjense muchachos lo que les decía\nQue este conjuntico, aquí cantaría..\nESA ES LA VERDAD.\nLo que les decía\nQue este conjuntico, aquí cantaría.\nCoro\nCASTA PALOMA DE GENTIL PLUMAJE\nEMBLEMA TIERNO DE RISUEÑA PAZ\nDIME SI PIENSAS REMONTAR EL vuelo\nO sí hacia el puerto de mi patria vas. (Bis)\nCantando Aguinaldo\nCantando aguinaldo pasaré la vida\nBajo el cielo de oro\nBajo el cielo de oro de Ciudad Bolivar\nCoro\nTun tun\nQuién es\nGente de paz\nAbranos la puerta que ya es Navidad! (BIS)\nQue venga el comisario\nQue vengo a averiguar\nSi son personas de orden\nO quieren perturbar..\nCoro\nParranda Parranda la parranda es buena\nParranda parranda la parranda es buena\nPorque nos persigue la divina estrella, porque nos persigue la divina estrella..\nBueno pues señores\nMe voy despidiendo (Bis)\nPorque tengo sueño y está amaneciendo (Bis)\nCoro\nLA CAPILLA ESTÁ ABIERTA DE NOCHE Y DE DIA\nREZAREMOS TODOS EL AVE MARIA (BIS) x 3\nEl niño Jesús  AY TU AY TU!\nNació caminando\nCon su maraquita pidiendo Aguinaldos (Bis)\nCoro\nHAY UN LIRIO QUE EL TIEMPO LO CONSUME\nHAY UNA FUENTE QUE LO HACE FLORECER (Bis)\nTU ERES EL LIRIO DAME TU PERFUME\nYO SOY LA FUENTE, DÉJAME CORRER. (Bis)\nPor aquí pasó\nUn desconocido\nCantando aguinaldos\nPara mis amigos (Bis)\nCoro\nTILINGO TILINGO\nMAÑANA ES DOMINGO\nSUENAN LAS CAMPANAS DE LA NAVIDAD\nNAVIDAD NAVIDAD\nPARA QUE GOCES LA NAVIDAD (BIS)\nSuenan las campanas (TILIN TILIN)\nDe la Navidad (TILIN TILIN) (BIS)\nPorque VAMOS todos PA (BIS)\nLA FELICIDAD (BIS)\nCoro\nTilingo Tilingo...\nMAÑANA ES DOMINGO\nSUENAN LAS CAMPANAS DE LA NAVIDAD\nNAVIDAD NAVIDAD\nPARA QUE GOCES LA NAVIDAD (BIS)\nY para todos ustedes!!!!\nCORO..\nUN FELIZ AÑO PA TI\nUN FELIZ AÑO PA ELLA\nUN FELIZ AÑO PA TODOS\nUN FELIZ AÑO PA TI\nUN FELIZ AÑO PA ELLA UN FELIZ AÑO PA TODOS UN FELIZ AÑO!!!!",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 47,
-    "genero": "PARRANDA",
-    "titulo": "MI MAMA NO QUIERE",
-    "tonalidad": "MI",
-    "carpeta": "MIMAMA",
-    "letra": "Mi mamá no quiere que yo la abandone,\nMi mamá no quiere que yo la abandone\nPorque de la pena a llorar se pone,\nPorque de la pena a llorar se pone.\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.\nEres tu mi madre toda mi fortuna\nEres tu mi madre toda mi fortuna\nMadre es una sola, como tu ninguna\nMadre es una sola, como tu ninguna\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.\nVoy a hacer un decreto pa' que en este día\nVoy a hacer un decreto pa' que en este día\nNo haya lloradera, reine la Alegría\nNO haya lloradera, reine la alegría.\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.\nYo no quiero llanto, quiero gozadera\nYo no quiero llanto, quiero gozadera\nCon esta parranda que aquí les trajera\nCon esta parranda que aquí les trajera\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.\nAunque yo me marche dejaré en tu casa\nAunque yo me marche dejaré en tu casa\nToda la alegría de una serenata\nToda la alegría de una serenata\nMi mamá no quiere que yo vaya allá,\nMi mamá no quiere que yo vaya allá\nPorque de la pena se pone a llorá,\nPorque de la pena se pone a llorá.",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 49,
-    "genero": "PARRANDA",
-    "titulo": "POPURRI MARACAIBO15",
-    "tonalidad": "HOY MIRE LA GARZA(LAm) DONDE MANDA CAPITAN(LAm) MOSQUITO(LAm) TUNTUN(MI) ARUMBAM VAYA(Mi)",
-    "carpeta": "POPURRIM15",
-    "letra": "Hoy miré la garza que encontré aquél día,\n\nno estaba llorando, sólo sonreía, junto a su garzón\n\nse estaba bañando, yo traté de hablarle y se fueron volando.  \n\nHoy miré la garza que encontré aquél día,\n\nno estaba llorando, sólo sonreía, junto a su garzón\n\nse estaba bañando, yo traté de hablarle y se fueron volando.\n\nDonde manda capitán, no manda marinero\n\ndejame parrandear que yo llegué primero.\n\n Donde manda capi  tán, no manda marinero\n\ndejame parrandear que yo llegué primero.\n\nEstas son las cosas que yo le decía\n\nque un hombre lloraba por la novia mía.   \n\n  Estas son las cosas que yo le decía\n\nque un hombre lloraba por la novia mía.\n\nDonde manda capitán, no manda marinero\n\ndejame parrandear que yo llegué primero.  \n\nDonde manda capi  tán, no manda marinero\n\ndejame parrandear que yo llegué primero.\n\nPa' gozar muchachos, mira que ahí viene\n\nse ve por encima la mar serena.\n\nAnoche a la medianoche casi me pongo a llorar,\n\nporque un bendito mosquito a mi me quería picar.   \n\nAnoche a la medianoche casi me pongo a llorar,\n\nporque un bendito mosquito a mi me quería picar.\n\nMosquito, jején, anima y zancudo, (Bis)\n\n Me picas tan duro, que no se qué hacer. (Bis)\n\nAbreme la puerta dulce amada mía\n\nque en la Nochebuena todo es alegría.   \n\n  Abreme la puerta dulce amada mía\n\nque en la Nochebuena todo es alegría.\n\nTun tun quien es, tun tun quien es\n\nÁbreme la puerta que te quiero ver.   \n\nTun tun quien es, tun tun quien es, ábreme la puerta que te quiero ver.\n\n  Arrumbambaya, arrumbambaya, Porque mañana nos vamos para la playa. (Bis)\n\nAl ritmo de esta parranda deseamos en Navidad,\n\nque tengan un año pleno de dicha y prosperidad;   \n\nel pueblo a coro repite que siga este parrandón\n\nviva Maracaibo quince, reyes de la animación.\n\n  Arrumbambaya,     arrumbambaya,    Porque mañana nos vamos para la playa.  \n\nArrumbambaya,     arrumbambaya,    Porque mañana nos vamos para la playa.\n\nTun tun quien es, tun tun quien es\n\nÁbreme la puerta que te quiero ver.   \n\nTun tun quien es, tun tun quien es ábreme la puerta que te quiero ver.\n\nTenía una negrita que bailaba quitiplás,\n\n se pasaba noche y día, moviendo de aquí pa' ll a.\n\n Moviendo de aquí pa' llá porque es buena bailadora,\n\n moviendo bien la tambora, la mina y el quitiplás.\n\nAy dale que dale, al tambor, y mueve que mueve, al tambor,\n\ny repica, repica, al tambor, y dale que dale, al tambor.\n\nMientras más me lo repicas, más gana e' bailar me da,\n\nmientras más me lo repicas, más gana e' bailar me da.\n\nTun tun quien es, (soy yo) tun tun quien es (Betulio)\n\nÁbreme la puerta que te quiero ver.   \n\nTun tun quien   es, (que pasó) tun tun quien es\n\nÁbreme la puerta que te quiero ver.\n\nTun tun quien es, tun tun quien es, ábreme la puerta que te quiero ver. (Bis)\n\n",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 38,
-    "genero": "GAITAS",
-    "titulo": "LA CACHUA",
-    "tonalidad": "Si",
-    "carpeta": "LACACHUA",
-    "letra": "LA CACHUA\n\nAGRUPACION: Estrellas Del Zulia\nCANCION: La Cachua\n\nI\nmuy buenas noches señoras\ny señoritas\nes la cachua\nque los viene a saludar\ntrayéndote de lo mejor\nde margarita\nPa que lo bailen\nen este lugar (bis)\n\nCORO\nSi no me dan de beber\nVoy a botar la comida\nPorque yo sin la bebida\nNo siento ningún placer (bis)\n\nII\nMe la trajeron a pie\nDe margarita\nPara gozarlo\nAquí en este lugar\nSu musiquita\nes tan buena y sabrosita\nEs la cachua\nque los viene a ser bailar (bis)\n\nIII\nvoy a botar la comida\nsi no me dan de beber  (bis 4)",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 39,
-    "genero": "GAITAS",
-    "titulo": "LAS CARAQUEÑAS",
-    "tonalidad": "Sol m",
-    "carpeta": "CARAQUEÑAS",
-    "letra": "Que son y son sabrosas\nNo sé que tienen las chicas lindas\nQue de Caracas\nCon su caminar tan sabrosón\nQue a todo el mundo arrebata\nCuando las miro al pasar\nEl cuerpo se me estremece\nNo puedo hablar, solo mirar\nPues mudo quedé\nY si las miro otra vez\nMe moriré\nY es que tienen un swing\n'Chacho\nAy, no sé que tienen las chicas lindas\nQue de Caracas\nCon su caminar tan sabrosón\nQue a todo el mundo arrebata\nCuando las miro al pasar\nEl cuerpo se me estremece\nNo puedo hablar solo mirar\nPues mudo quedé, sí\nY si las miro otra vez\nMe moriré\nEsas jevas de Caracas\nMe tiene un ojo gasta'o\n(Cómo caminan)\n(Las caraqueñas)\nY cuando voy al litoral\nSu piel bronceada por el sol, seguramente\nMamita rica, me fascina\n(Cómo caminan)\n(Las caraqueñas)\nYo pienso que todo lo tienen\nBelleza, pureza, inteligencia\nCosa más grande, caraqueña\n(Cómo caminan)\n(Las caraqueñas)\nTienen un camina'o\nDulce como el melao\nNo como nada, como todo\nA las en la Metropolitana y la Santa Maria, ven\nA la Católica y a la Central, canto yo\n(Cómo caminan)\n(Las caraqueñas)\nY si tú vas por Las Mercedes\nPrados del Este y en El Rosal tú te detienes\n(Cómo caminan)\n(Las caraqueñas)\nAy, pero mira que son de Caracas\nLas chicas que a mi me gustan, pa' gozar\nMacaco\nNo te llevo nylon\nAy, cómo gozo, porque ellas bailan sabroso, sabroso\n(Mira como bailan las caraqueñas)\n(Pero mira como gozan, ven pa' que veas)\nEs que, baila con Guaco este sabroso son\nMira caraqueñas que sabroso estoy\n(Mira como bailan las caraqueñas)\n(Pero mira como gozan, ven pa' que veas)\nAy, ven, vale-quin-qui-quin-quin, vale-quin-quin-quin\nLes suenan las cinturas las mulatas del San Agustín",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 40,
-    "genero": "PARRANDA",
-    "titulo": "EL GAVILAN",
-    "tonalidad": "Fa",
-    "carpeta": "ELGAVILAN",
-    "letra": "Letra de El Gavilán de Simón Díaz\nverse\nSi el gavilán se comiera\n¡Ay!, se comiera como se come al ganao\nSi el gavilán se comiera\n¡Ay!, se comiera como se come al ganao\nYa yo me hubiera comido al gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nEste gavilán, primito\nOye, primito, pequeño y gran volador\nEste gavilán, primito\nOye, primito, pequeño y gran volador\nQue se remonta en lo alto\nPara divisar al pichón\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nCanoero del río Arauca\nDel río Arauca pásame pa′l otro lao\nCanoero del río Arauca\nDel río Arauca pásame pa'l otro lao\nQue me viene persiguiendo el gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nEn la barranca de Apure\n¡Ay!, de Apure suspiraba un gavilán\nEn la barranca de Apure\nOye de Apure suspiraba un gavilán\nY en el suspiro decía\n\"Muchachas de Camaguán\"\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nverse\nSi el gavilán se comiera\nComo se come al ganao\nYa yo me hubiera comido el gavilán colorao\nchorus\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nGavilán, qué, pío, pío, pío\nGavilán, qué, tao, tao, tao\nWriter(s): Simon Diaz",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
     "id": 35,
     "genero": "BOLERO",
     "titulo": "AYER",
@@ -143,131 +13,12 @@
     }
   },
   {
-    "id": 33,
-    "genero": "PARRANDA",
-    "titulo": "PRESENTACION - EL HOJAL",
-    "tonalidad": "re m",
-    "carpeta": "PRESENTACION-EL-HOJAL",
-    "letra": "",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 6,
-    "genero": "PARRANDA",
-    "titulo": "CON MI BOTELLITA E RON ",
-    "tonalidad": "re m ",
-    "carpeta": "CONMIBOTELLITA",
-    "letra": "Parranda de Navidad\nCanción de\n\nTania\nCon mi botellita de ron salgo a parrandear\nCon mi botellita de ron salgo a parrandear\nAgarro mi cuatrico, compay, y me voy a gozar nada más\nAgarro mi cuatrico compay y me voy a gozar nada más\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares (ay)\nEl lucero está radiante, ya viene el amanecer\nEl lucero está radiante, ya viene el amanecer\nAgarro mi cuatrico y mi ron, y pasteles me voy a comer\nAgarro mi cuatrico y mi ron, y pasteles me voy a comer\nSon para gozarlas estas Navidades\nAy, son para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nCuando sean 12 de la noche y el año barbudo se va\nCuando sean 12 de la noche y el año barbudo se va\nAgarro mi cuatrico y mi ron, y me voy a abrazar a mamá\nAgarro mi cuatrico y mi ron, y me voy a abrazar a mamá\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nYa yo me despido, compay, de esta Navidad\nYa yo me despido, compay, de esta Navidad\nEl año que viene, caramba, volveré a cantar y a gozar\nEl año que viene, caramba, volveré a cantar y a gozar\nSon para gozarlas estas Navidades\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nPorque el año que viene se acaban los pesares\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares\nSon para gozarlas estas Navidades\nPorque el año que viene se acaban los pesares",
-    "secciones": {
-      "armonia": [],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 14,
-    "genero": "PARRANDA",
-    "titulo": "EL RELOJ",
-    "tonalidad": "Si",
-    "carpeta": "ELRELOJ",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 27,
-    "genero": "PARRANDA",
-    "titulo": "LOS GAVILANES",
-    "tonalidad": "SOL M",
-    "carpeta": "GAVILANES",
-    "letra": " En la curva de San Pablo casi llegando a Carora se formó la sampablera;                                                              \n\n tenían una discusión el Gavilán de Don Pío y el Gavilán de Canela  (Bis)\n\n  Ay! Gavilán Trabalengua; Ay! Gavilán Tocuyano   \n\n  Pío Alvarado y Canela    se dan la mano (Bis)\n\n  Gavilán    de pío, pío, gavilán de tao, tao (Bis)\n\n  Con su pico amarilerilerillo, con su pico rosaledaledao\n\n  con su piquito amarilerilerillo, con su pico rosaledaledao\n\n\nEl Gavilán del Tocuyo le dijo al de Cuararigua: hace calor en Carora,\n\nQue los matos se protegen con la sombra de los chivos y cargan su cantimplora! (Bis)\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara:\n\nLos Tocutocuyaledaledanos van tomados de la mano como hermanedaledanos\n\ncon su cántaro virano tamunangueándole y dándole por todiquitiquitiqui-tiqui-tiqui\n\nel Estado Lara! (Bis)\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara...\n\n\nAy! Gavilán Trabalengua; Ay! Gavilán Tocuyano...\n\n\nEl Gavilán Trabalenguas le respondió al del Tocuyo de una manera muy clara...",
-    "secciones": {
-      "armonia": [
-        "CUATRO"
-      ],
-      "percusion": [],
-      "vientos": []
-    }
-  },
-  {
-    "id": 16,
-    "genero": "PARRANDA",
-    "titulo": "MARIA JOSEFA",
-    "tonalidad": "sol m",
-    "carpeta": "MARIAJ",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 7,
-    "genero": "PARRANDA",
-    "titulo": "MI COMAE",
+    "id": 54,
+    "genero": "BOLERO",
+    "titulo": "LAGRIMAS NEGRA",
     "tonalidad": "",
-    "carpeta": "MICOMAE",
-    "letra": "TITULO: Mi Comae\n\nI\nMi comae lavaba\nA la orilla del rio (bis)\nY tiritaba pues sentía frio\nQuien la manda a usted a lavar\nDe noche en el rio (bis)\n\nCORO\nHay mi comae\nLa parranda es buena\nPorque la cantamos\nCon sabor a Venezuela (bis)\nComo baila la morena\nCon esta parranda buena\nY le gusta a Micaela\nCon sabor a Venezuela\nLa negritud la revela\nCon esta parranda buena\nHay parranda que de la buena\nCon sabor a Venezuela\n\nII\nA mi comae le gusta\nSu novio bombero (bis)\nPorque tiene agua\nY le apaga el fuego\nTenga usted cuidao mi comae\nCon el candelero  (bis)\n\nIII\nMi comae tiene\nuna paloma negra (bis)\nElla la acaricia\ny revolotea\nTenga usted cuidao mi comae\nLa paloma vuela",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 9,
-    "genero": "PARRANDA",
-    "titulo": "POPURRI UN SOLO PUEBLO ",
-    "tonalidad": "NEGRO COMO YO (Do) LA GARZA(La) MARIA PALETA(Si) BOTASTE LA BOLA(Sol)",
-    "carpeta": "POPURRIUSP",
-    "letra": "",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 50,
-    "genero": "PARRANDA",
-    "titulo": "ALUMBRAME EL ZAGUAN ",
-    "tonalidad": "",
-    "carpeta": "ALUMBRAME",
-    "letra": "\nYo traigo una cruz de palma bendita\nYo traigo una cruz de palma bendita\nMe la dio Jesús esta mañanita\nMe la dio Jesús esta mañanita\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nQue eso se acostumbra en la Navidad\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nPorque en la penumbra\nNo puedo cantar\nYa puse la cruz sobre la bandera\nYa puse la cruz sobre la bandera\nAsí está Jesús junto a Venezuela\nAsí está Jesús junto a Venezuela\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nQue eso se acostumbra en la Navidad\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nPorque en la penumbra\nNo puedo cantar\nY la palma real, que nadie la nombra\nY la palma real, que nadie la nombra\nAllá, en el portal, está dando sombra\nAllá, en el portal, está dando sombra\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nQue eso se acostumbra en la Navidad\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nPorque en la penumbra\nNo puedo cantar\nPa que los proteja de malas visitas\nPa que los proteja de malas visitas\nPongan en la reja la palma bendita\nPongan en la reja la palma bendita\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nQue eso se acostumbra en la Navidad\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nPorque en la penumbra no puedo cantar\nFíjense en la espada de Simón Bolívar\nFíjense en la espada de Simón Bolívar\nEs como la palma, qué viva, qué viva\nEs como la palma, qué viva, qué viva\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán\nAlumbra, alumbra, lú'\nAlúmbrame el zaguán",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 51,
-    "genero": "PARRANDA",
-    "titulo": "CARMELA",
-    "tonalidad": "Re",
-    "carpeta": "CARMELA",
-    "letra": "La luna no engaña a nadie ay Carmela, La luna no engaña a nadie\n    \nCarmela, oh, que la engañada fui yo oh, leroh, lero y lero la, a\n   \noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nMaldito sea el amor, oye Carmela maldito sea el amor\nCarmela, oh, el amor, maldito sea oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl amor tiene la culpa oye Carmela el amor tiene la culpa\nCarmela, oh, que yo en trabajo me vea oh, leroh, lero y lero la, a oh,\nleroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro cuerdas tiene el cuatro ay, Carmela, cuatro cuerdas tiene el cuatro\nCarmela, oh, duro suena la tambora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nCuatro mil deseos tiene oye Carmela cuatro mil deseos tiene\nCarmela, oh, la mujer que se enamora oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nLas mujeres no te quieren ay Carmela, las mujeres no te quieren\nCarmela, oh, porque dicen que eres feo oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPero te le vas metiendo oye Carmela pero te le vas metiendo\nCarmela, oh, como sortija en el dedo Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nEl que cantare conmigo, oye Carmela el que cantare conmigo\nCarmela, oh, se revienta y echa sangre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\nPues tengo la voz de acero, oye Carmela pues tengo la voz de acero\nCarmela, oh, y mi garganta es de alambre Oh, leroh, lero y lero la, a\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\n\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la\noh, leroh, leroh, leroh, leroh, leroh, la oh, leroh, lero y lero la",
-    "secciones": {
-      "vientos": [],
-      "percusion": [],
-      "armonia": []
-    }
-  },
-  {
-    "id": 52,
-    "genero": "PARRANDA",
-    "titulo": "EL COCOUY QUE ALUMBRA",
-    "tonalidad": "Re",
-    "carpeta": "ELCOCOUY",
-    "letra": "Vámonos muchachos a\ncorrer sabana, vámonos\nmuchachos a correr sabana,\na correr sabana,\nel cucuy que alumbra\ntoda la montaña  el\ncucuy que alumbra toda\nla montaña. (Bis)\nYo quisiera ser como el aeroplano,\nyo quisiera ser como el aeroplano,\ncomo el aeroplano que vuela\nen invierno igual que en\nverano, que vuela en invierno\nigual que en verano.\nVámonos muchachos...\nSe fue el año veinte que\nviva el veintiuno, se fue\nel año veinte que viva el\nveintiuno, que viva el veintiuno\nque viva Cuyagua que todos\nson uno, que viva Cuyagua\nque todos son uno.\nVámonos muchachos...\nOye Maria Díaz de mi corazón,\noye Maria Díaz de mi corazón,\nde mi corazón u tienes la\nculpa yo tengo razón, u tienes\nla culpa yo tengo razón.\nVámonos muchachos...\nAl pueblo\\'e Cuyagua nosotros\nnos vamos, al pueblo\\'e Cuyagua\nnosotros nos vamos, nosotros\nnos vamos y el año que viene\npor aquí pasamos, y el año\nque viene por aquí pasamos.",
+    "carpeta": "LAGRIMAS-NEGRAS",
+    "letra": "Aunque tu, me has echado en el abandono\n\nAunque tu, has muerto todas mis ilusiones\n\nY en vez, de maldecirte con justo encono\nEn mis sueños te colmo, en mis sueños te colmo\nDe bendiciones\n\nSufro la inmensa pena de tu extravío\nSiento el dolor profundo de tu partida\nY lloro sin que sepas que el llanto mio\nTiene lagrimas negras, tiene lagrimas negras\nComo mi vida\n\nTu me quieres dejar, yo no quiero sufrir\nContigo me voy mi santa aunque me cueste morir\n\nUn jardinero de amor, siembra una flor y se va\nOtro viene la cultiva, de cual de los dos sera\n\nAmada prenda querida, no puedo vivir sin verte\nPorque mi fin es quererte y amarte toda la vida\n\nYo te lo digo mi amor, te lo repito otra vez\nContigo me voy mi santa porque contigo moriré\n\nYo te lo digo mi amor, que contigo morire\nContigo me voy mi santa te lo repito otra vez",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -301,12 +52,12 @@
     }
   },
   {
-    "id": 59,
-    "genero": "GAITAS",
-    "titulo": "AMPARITO",
+    "id": 63,
+    "genero": "MERENGUES",
+    "titulo": "APAGAME LA VELA ",
     "tonalidad": "",
-    "carpeta": "AMPARITO",
-    "letra": "Ey, ey, ey\nYeh-cua, ah\nY pa' Barranquilla me voy sabroso\nCon Amparito asi nama', jai, epa\nEn un viaje que hice a Barranquilla\nConocí a una linda Colombiana\nOmbe, que, me quedé con las ganas\nDe casarme con esa chiquilla\nEn un viaje que hice a Barranquilla\nConocí a una linda Colombiana\nOmbe, que, me quedé con las ganas\nDe casarme con esa chiquilla, ay, ombe\nqué, qué\n(Amparito) eh\nTe olvidaste del negrito\nTu Maracuchito\n(Amparito) pero que bueno\n(Amparito) eh\nTe creía mujer buena\nTe fuiste pa' Cartagena, ja\n(Amparito)\n(Amparito)\n(Yo estaba pensando que tal vez buscando)\n(Por toda Colombia, me estaba esperando)\n(Porque yo pensaba que me idolatrabas con el corazón)\nOk, Bartulio, óyelo sabroso, sigan las caderas, me voy\nAmparito baila con soltura\nCuando escucha este ritmo, mi hermano\nElla dice que el Venezolano\nAy, si tiene fuego en la cintura\nAmparito baila con soltura\nCuando escucha este ritmo, mi hermano\nElla dice, dice que el Venezolano\nAy, si tiene fuego en la cintura, Amparito\nqué, qué\n(Amparito) eh\nQuiero sentarme contigo en la yerbita\nY decirte lindas cositas\n(Amparito) pero qué bueno\n(Amparito) Que\nMe creí del mundo dueño\nPero solo era un sueño, ja\n(Amparito)\n(Amparito)\n(Yo estaba pensando que tal vez buscando)\n(Por toda Colombia, me estaba esperando)\n(Porque yo pensaba que me idolatrabas con el corazón)\nOye Bartulia, cómo dice este grupito, así na' má', ay\nY pa' que lo gocen todos aquí con Amparito, muy bueno, ja\nGózalo, Menence, ja\nEh\n(Amparito) pero qué rico\n(Amparito) esta cumbita\n(Amparito) pa' que lo goces\n(Amparito) linda negrita\nPara que parala, que parala, que parala, que parala, que parala Amparito\nOye qué rico\nVente pa' acá\nOye negrita\nBueno y nos fuimo' sabroso con Amparito, na' más así, ay\nAmparito, aunque mal pagues",
+    "carpeta": "APAGAMELAVELA",
+    "letra": "A mí una vieja me dijo\nTe tienen velas prendidas\nUnos las sacan de noche\nOtros la prenden de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\nApágame la vela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nApágame la vela\nMaría\n\nA mí una vieja me dijo\nTe tienen velas prendidas\nUnos las prenden de noche\nOtros la sacan de día\n\nApágame la vela\nMaría\nPero que apágame la vela\nMaría\nPero que apágamela\nMaría\nPero que quitamela\nMaría\n\nPá terminar la porfía\nMe voy a meter a la guardia\nUnos cojen la pistola\nOtros cojen la polaina\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nAy, apágame la vela\nMaría\nPero que quitame esa vela\nMaría\n\nApágame la vela\nMaría\nPero que quitame esa vela\nMaría\nApágamela\nPero que quitamela\nMaría\n\nApágame la vela\nMaría\nApágame la vela\nMaría\nPero que Quitamela\nMaría\nPero que Quitamela\nMaría\nPero que quitala",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -314,12 +65,12 @@
     }
   },
   {
-    "id": 57,
-    "genero": "GAITAS",
-    "titulo": "LA BOTELLITA",
+    "id": 66,
+    "genero": "MERENGUES",
+    "titulo": "CAMA Y MESA",
     "tonalidad": "",
-    "carpeta": "LABOTELLITA",
-    "letra": "I\nQue cuando salgo a parrandear\nParrandeo y no me canso\nPorque yo soy como el ganso\nCuando se tira  a nadar (bis)\n\nCORO\nComadrita la rana (Señor señor)\nLlego su marido (Si señor)\nY que le trajo (Un ropón)\nDe qué color (Verde limón)\nVamos a misa (no tengo camisa)\nVamos al sermón (no tengo ropón)\nLa botellita  (no tiene tapita)\nY el garrafón (no tiene tapón)\nQuítale quítale quítale quítale  \nQuítale pon  hay pero\nQuítale quítale quítale quítale  \nQuitale pon pon pon\nNo tiene tapón pon pon\nNo tiene tapón\n\nII\nParaulata tinadora\nQue por estas selvas cantas\nEl eco de tu garganta\nEs el que a mí me enamora (bis)\n\nIII\nDe los hijos de mama\nYo soy el bollo pelón\nSoy el que toma más ron\nCon mas extremosidad (bis)\n\nIV\nA pascuas Pa que durara\nQue diría mama de mi\nDesde el día en que Salí\nNo me ha vuelto a ver la cara (bis)",
+    "carpeta": "CAMAYMESA",
+    "letra": "",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -327,12 +78,12 @@
     }
   },
   {
-    "id": 58,
-    "genero": "GAITAS",
-    "titulo": "LA GAITA VIEJA DEL SALADILLO",
+    "id": 62,
+    "genero": "MERENGUES",
+    "titulo": "EL NEGRITO DEL BATEY ",
     "tonalidad": "",
-    "carpeta": "LAGAITAVIEJA",
-    "letra": "¡Bueno vamos a formar la parranda hermano!\n¡Catire, decime que teneí por ahí!\nMuchachos que les parece si armamos\nUna parranda en el bohío de Alex prieto\nChico con una gaita del año 1.800 que dice así escucha\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo ¡Sabrosa!\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo ¿Y el furro?\nDe la gaita vieja la que se hacía en el saladillo\n¡Hey ustedes aprenden rápido ah!\nVerso 1\nA la luna con sus rayos que ilumine mi camino\nQue se me perdió un cochino, cuatro gallinas y un gallo\nA la luna con sus rayos que ilumine mi camino\nQue se me perdió un cochino, cuatro gallinas y un gallo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos ¡Claro!\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\n¡Y lo decimos viejito así ve, Póngale sabor, póngale sabor!\nVerso 2\nMucho me gusta cantar, mucho me gusta beber\nPero mas me gusta estar en brazos de una mujer\nMucho me gusta cantar, mucho me gusta beber\nPero mas me gusta estar en brazos de una mujer\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos ¡Vamos maraquita!\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nVerso 3\nUn cuartillo es un cuartillo, dos cuartillos medio real\nTres cuartillos, tres cuartillos\nCuatro cuartillos un real\nUn cuartillo es un cuartillo, dos cuartillos medio real\nTres cuartillos, tres cuartillos\nCuatro cuartillos un real\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo ¿Cuales?\nDe la gaita vieja la que se hacía en el saladillo\nEl verso se abrocha con devoción del buen estribillo\nY junto se evocan de corazón los tiempos sencillos\nSe van tarareando con devoción épocas de brillo\nDe la gaita vieja la que se hacía en el saladillo\nOtra vez, Otra vez\nDe la gaita vieja la que se hacía en el Saladillo\n¡Hay chico Ludovico se quedó dormido!\nHey y Angelina también hermano",
+    "carpeta": "ELNEGRITODELBATEY",
+    "letra": "A mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien sabrosa\n\nA mí me llaman el negrito del batey\nPorque el trabajo para mí es un enemigo\nEl trabajar yo se lo dejo todo al buey\nPorque el trabajo lo hizo Dios como castigo\nA mí me gusta el merengue apambichao'\nCon una negra retrachera y buena moza\nA mí me gusta bailar de medio lao'\nBailar medio apretao' con una negra bien preciosa\n\nY dí si a ti no es verdad\nMerengue mucho mejor\nY dí si a ti no es verdad\nMerengue mucho mejor\nPorque esto de trabajar\nA mí me causa dolor\nPorque esto de trabajar\nA mí me causa dolor\n\n¡Candela!\nMucho le gusta el buey manco\nPero nunca le da el tengué\nMucho le gusta el buey manco\nPero nunca le da el tengué\nYo con una negra buena\nBailaré zumban merengue\nYo con una negra buena\nBailaré zumban merengue",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -340,12 +91,12 @@
     }
   },
   {
-    "id": 54,
-    "genero": "BOLERO",
-    "titulo": "LAGRIMAS NEGRA",
+    "id": 61,
+    "genero": "MERENGUES",
+    "titulo": "SOLO PARA TI ",
     "tonalidad": "",
-    "carpeta": "LAGRIMAS-NEGRAS",
-    "letra": "Aunque tu, me has echado en el abandono\n\nAunque tu, has muerto todas mis ilusiones\n\nY en vez, de maldecirte con justo encono\nEn mis sueños te colmo, en mis sueños te colmo\nDe bendiciones\n\nSufro la inmensa pena de tu extravío\nSiento el dolor profundo de tu partida\nY lloro sin que sepas que el llanto mio\nTiene lagrimas negras, tiene lagrimas negras\nComo mi vida\n\nTu me quieres dejar, yo no quiero sufrir\nContigo me voy mi santa aunque me cueste morir\n\nUn jardinero de amor, siembra una flor y se va\nOtro viene la cultiva, de cual de los dos sera\n\nAmada prenda querida, no puedo vivir sin verte\nPorque mi fin es quererte y amarte toda la vida\n\nYo te lo digo mi amor, te lo repito otra vez\nContigo me voy mi santa porque contigo moriré\n\nYo te lo digo mi amor, que contigo morire\nContigo me voy mi santa te lo repito otra vez",
+    "carpeta": "SOLOPARATI",
+    "letra": "Solo Para Ti\n\nDesde que te vi, mi corazon empezó a latir\nyo te sonreí, expresando una seña de mi amor\ndejó una ilusion y cada dia pienso mas en ti\nno quisiera vivir pensando en no ser dueño de tu amor\n\nCORO\n\nSooloo, quisiera ser yo sooloo\nquien te bese y te acaricie\nPasa el tiempo y siento una fuerza\nque nutre mas mi amor y aumenta la intensidad de mi corazon!\n\nSooloo, quisiera ser yo sooloo\nquien te bese y te acaricie\nPasa el tiempo y siento una fuerza\nque nutre mas mi amor y aumenta la intensidad de mi corazon!\n\nSooloo, quisiera ser yo sooloo\nquien te bese y te acaricie\nPasa el tiempo y siento una fuerza\nque nutre mas mi amor y aumenta la intensidad de mi corazon!\n\nSooloo, quisiera ser yo sooloo\nquien te bese y te acaricie\nPasa el tiempo y siento una fuerza\nque nutre mas mi amor y aumenta la intensidad de mi corazon!\n\n",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -353,12 +104,12 @@
     }
   },
   {
-    "id": 60,
-    "genero": "GAITAS",
-    "titulo": "LA PRIMAVERA",
+    "id": 65,
+    "genero": "MERENGUES",
+    "titulo": "SONAMBULO",
     "tonalidad": "",
-    "carpeta": "LAPRIMAVERA",
-    "letra": "Ya llego un nuevo dia\nnegra que me has guardado\nya llego un nuevo dia\nnegra que me has guradado\nnunca yo te he olvidado\nlo juro vida mia\nnunca yo te he olvidado\nlo juro vida mia.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nEl 22 de marzo\nentra la primavera\nel 22 de marzo\nentra la primavera.\n\nEntra alegria a mi tierra\nyo adorare este canto\nentra alegria a mi tierra\nyo adorare este canto.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nTu eres en primavera\nla mujer mas hermosa\ntu eres en primavera\nla mujer mas hermosa\nquiero de ti una cosa\nque sea por vez primera\nquiero de ti una cosa\nque sea por vez primera.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.\n\nGoza este ritmo\nen primavera\npa que lo bailes.\n\n\nYo te traigo pa que gozes\nesta rica primavera\noye la cosa buena\nyo quiero una mujer\nque a mi me quiera.\n\nGoza este ritmo\nen primavera\npa que lo bailes.\n\nBailala, gozala, cantala\neste ritmo suavecito,\nporque yo soy el que soy\nel verdugo de amparito.\n\nGoza este ritmo\nen primavera\npa que lo bailes\ncomo tu quieras.\n\nPor eso le canto a mi morena\nque tiene sabor a primavera\npor eso le canto a mi morena\nque tiene sabor a primavera.",
+    "carpeta": "SONAMBULO",
+    "letra": "",
     "secciones": {
       "vientos": [],
       "percusion": [],
@@ -366,12 +117,12 @@
     }
   },
   {
-    "id": 53,
-    "genero": "PARRANDA",
-    "titulo": "EL NEGRO Y EL CATIRE",
-    "tonalidad": "Re m",
-    "carpeta": "ELNEGRO",
-    "letra": "Se conocieron los dos\npor los lados de Payara\nuno levantó la voz y el otro\nno dijo nada.\nSe pusieron a pelear no quedaba\nmá remedio Mucuritas,\nel Yagual y las Queseras\ndel Medio.\nAgarraron lanza en mano\nrepartieron sangre y grito\nel catire comandando\ny el negro de primerito.\nPero el catire lloró...porque\ncon el pecho abierto\nel negro le dijo adiós\nporque estaba muerto.\nAgarraron lanza en mano\nrepartieron sangre y grito\nel catire comandando\ny el negro de primerito.\nPero el catire lloró...porque\ncon el pecho abierto\nel negro le dijo adiós,\nadiós...porque estaba muerto.",
+    "id": 64,
+    "genero": "MERENGUES",
+    "titulo": "UNA FOTOGRAFIA",
+    "tonalidad": "",
+    "carpeta": "UNAFOTOGRAFIA",
+    "letra": "He vuelto a los lugares\nQue juntos caminamos\nQue juntos recorrimos\nPero no te encontré\nHe vuelto al bulevar\nY al pequeño café\nY al viejo de las flores\nPor ti le pregunté\nAún recuerdo el árbol\nDonde yo te besé\nTú escribiste mi nombre\nY yo el tuyo también\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar y del café\nDel árbol donde la encontré\nNo puedo olvidar\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nUna fotografía\nFue lo que me quedó\nDe aquel bello romance\nQue aún no olvido yo\nVisito los lugares\nDonde íbamos tú y yo\nPero nadie te ha visto\nTu rostro se perdió\nHoy solo quedó\nDe mi Yinet\nSolo una foto guardo yo\nY el cuarto de hotel\nNo puedo olvidar\nDonde tu inocencia se quedó\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet\nEl, el cielo fue\nTestigo de\nEl cielo fue testigo de\nDel bulevar\nY del café\nDel árbol donde la encontré\nNunca olvidaré\nEl día que\nSentada en el parque la besé\nLos niños jugando, las palomas volando\nTe llevo en mi mente a ti Yinet",
     "secciones": {
       "vientos": [],
       "percusion": [],
