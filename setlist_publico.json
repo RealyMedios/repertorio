@@ -1,15 +1,15 @@
 [
   {
-    "id": 56,
+    "id": 76,
     "genero": "BOLERO",
     "titulo": "TU ME HACES FALTA",
-    "tonalidad": "",
+    "tonalidad": "Mi m",
     "carpeta": "TUMEHACESFALTA",
     "letra": "Ya que no puedo\nDecírtelo al oído\nPor la suerte cruel\nQue nos separa\n\nQuiero decirte\nPor medio de este canto\nQue no puedo seguir\nSufriendo tanto\n\nTú me haces falta\nTal vez más que mi vida\nY mi vida eres tú\nY te me has ido\n\nQue pretendes\nMi amor que yo te quiera\nSi tu, en cambio\nMe pagas con olvido\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor\n\nTú me haces falta\nPorque las noches\nSe hacen tan largas\nCuando en ti pienso\n\nTú me haces falta\nPor el recuerdo\nQue tu has dejado\nEn mi corazón\n\nNi la distancia\nNi todo el tiempo\nQue estoy sin verte\nMe hacen que olvide\nLa triste historia\nDe nuestro amor",
     "secciones": {
-      "vientos": [],
+      "armonia": [],
       "percusion": [],
-      "armonia": []
+      "vientos": []
     }
   },
   {
