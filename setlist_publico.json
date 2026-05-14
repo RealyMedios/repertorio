@@ -13,6 +13,71 @@
     }
   },
   {
+    "id": 77,
+    "genero": "BALADA RETRO",
+    "titulo": "DETEN LA NOCHE",
+    "tonalidad": "Fa",
+    "carpeta": "DETENLANOCHE",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 78,
+    "genero": "BALADA RETRO",
+    "titulo": "COMO TE EXTRAÑO ",
+    "tonalidad": "Sol ",
+    "carpeta": "COMOTEEXTRAÑO",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 84,
+    "genero": "BALADA RETRO",
+    "titulo": "VIVIR ASI",
+    "tonalidad": "Fa",
+    "carpeta": "",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 85,
+    "genero": "BALADA RETRO",
+    "titulo": "QUERERTE A TI",
+    "tonalidad": "Fa",
+    "carpeta": "",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
+    "id": 87,
+    "genero": "BALADA RETRO",
+    "titulo": "MAÑANA ME IRÉ ",
+    "tonalidad": "Sib",
+    "carpeta": "",
+    "letra": "",
+    "secciones": {
+      "armonia": [],
+      "percusion": [],
+      "vientos": []
+    }
+  },
+  {
     "id": 54,
     "genero": "BOLERO",
     "titulo": "LAGRIMAS NEGRA",
@@ -136,6 +201,19 @@
     "tonalidad": "La m",
     "carpeta": "CAMAYMESA",
     "letra": "Quiero ser tu canción desde principio a fin\nQuiero rozarme en tus labios y ser tu carmín\nSer el jabón que te suaviza, el baño que te baña\nLa toalla que deslizas por tu piel mojada\nYo quiero ser tu almohada, tu edredón de seda\nBesarte mientras sueñas y verte dormir\nSer el Sol que entra y da sobre tu cama\nDespertarte poco a poco, hacerte sonreír\nQuiero estar en el más suave toque de tus dedos\nEntrar en lo más íntimo de tus secretos\nSer la buena cosa rara, liberada o prohibida\nSer todo en tu vida\nTodo lo que me quieras dar quiero que me lo des\nYo te doy todo lo que un hombre entrega a una mujer\nIr más allá de ese cariño que siempre me das\nMe imagino tantas cosas, siempre quiero más\nTú eres mi dulce desayuno, mi pastel perfecto\nMi bebida preferida el plato predilecto\nYo como y bebo de lo bueno y no tengo hora fija\nDe mañana, tarde o noche no hago dieta\nY este amor que alimenta a mi fantasía\nLa comida más sabrosa, es mi alegría\nMi perfume, mi bebida\nLa fruta prohibida\nY es todo en mi vida\nTodo hombre que sabe querer\nSabe dar y pedir a la mujer\nLo mejor es hacer de este amor\nSu comida y bebida y su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\n\nTodo lo que me quieras dar quiero que me lo des\nYo te doy todo lo que un hombre entrega a una mujer\nIr más allá de ese cariño que siempre me das\nMe imagino tantas cosas, siempre quiero más\nTú eres mi dulce desayuno, mi pastel perfecto\nMi bebida preferida el plato predilecto\nYo como y bebo de lo bueno y no tengo hora fija\nDe mañana, tarde o noche no hago dieta\nY este amor que alimenta a mi fantasía\nLa comida más sabrosa, es mi alegría\nMi perfume, mi bebida\nEs fruta prohibida\nEs todo en mi vida\nTodo hombre que sabe querer\nSabe dar y pedir a la mujer\nLo mejor es hacer de este amor\nSu bebida y comida y su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nLo que come, que bebé, que da, que recibe\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\nEl hombre que sabe querer\nY se apasiona por una mujer\nConvierte su amor en su vida\nSu bebida y comida en su justa medida\n\n",
+    "secciones": {
+      "vientos": [],
+      "percusion": [],
+      "armonia": []
+    }
+  },
+  {
+    "id": 83,
+    "genero": "ROCK AND ROLL",
+    "titulo": "LA PLAGA ",
+    "tonalidad": "FaM",
+    "carpeta": "LAPLAGA",
+    "letra": "",
     "secciones": {
       "vientos": [],
       "percusion": [],
